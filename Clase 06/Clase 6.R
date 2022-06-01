@@ -30,3 +30,63 @@ letters
 LETTERS
 
 str_to_lower(c("a","B","c")) %in% letters
+
+## Estructuras de control ----
+
+numero <- 44
+numero >= 4
+
+numero %% 2 == 0
+
+## Comando if -----
+
+nota <- 5.8
+if(nota >= 4){
+  print('Felicidades, aprobaste el curso') 
+}else{
+  print('Lo sentimos, pero has reprobado :c')
+}
+
+if(nota >= 4) print('Felicidades, aprobaste el curso') 
+
+nota <- -4
+ifelse(nota >= 4,
+       'Felicidades, aprobaste el curso',
+       'Lo sentimos, pero has reprobado :c')
+
+
+if(nota >= 4){
+  print('Felicidades, aprobaste el curso') 
+}else{
+  print('Lo sentimos, pero has reprobado :c')
+}
+
+
+notas <- "cr"
+is.numeric(notas)
+if(notas >= 4){
+  print('Felicidades, aprobaste el curso') 
+}else{
+  print('Lo sentimos, pero has reprobado :c')
+}
+
+
+if((nota < 1) | (nota > 7) | (is.numeric(nota) == FALSE)) { 
+  print("Error, ingrese un número entre 1 y 7")
+} else if (nota >= 4) {
+  print("¡Felicitaciones!")
+} else {
+  print("Reprobaste")
+}
+
+
+ifelse((nota < 1) | (nota > 7) | (is.numeric(nota) == FALSE),
+        "Error, ingrese un número entre 1 y 7",
+        ifelse(nota >= 4,
+               "¡Felicitaciones!",
+               "Reprobaste"))
+
+
+
+
+
