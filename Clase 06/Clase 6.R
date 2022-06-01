@@ -1,4 +1,5 @@
 # Clase 6 - estructuras de control -----
+library(tidyverse)
 
 ## operadores lógicos ----
 
@@ -97,6 +98,27 @@ case_when(is.numeric(nota) == FALSE ~ "Error, ingrese un número.",
           TRUE ~ 'Reprobaste')
 
 # data.table::fifelse() Este comando es más eficiente en grandes volúmenes de datos.
+
+## Comando for -----
+
+notas <- runif(62,3,7) %>% round(1)
+
+resultados <- character(0)
+
+for(i in 1:length(notas)){
+  resultados[i] <- case_when(is.numeric(notas[i]) == FALSE ~ "Error, ingrese un número.",
+              (notas[i] < 1 | notas[i] > 7) ~ "Error, ingrese un número entre 1 y 7.",
+              notas[i] == 7 ~ '¡Felicidades, tuviste una nota perfecta!',
+              notas[i] >= 4 ~ "¡Felicitaciones!",
+              TRUE ~ 'Reprobaste')
+}
+
+alumnos_turing <- tibble(nota = notas,
+                         mensaje = resultados)
+
+
+## Actividad I -----
+
 
 
 
