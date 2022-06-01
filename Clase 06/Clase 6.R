@@ -86,6 +86,26 @@ ifelse((nota < 1) | (nota > 7) | (is.numeric(nota) == FALSE),
                "¡Felicitaciones!",
                "Reprobaste"))
 
+## case_when ------
+
+nota <- '2'
+
+case_when(is.numeric(nota) == FALSE ~ "Error, ingrese un número.",
+          (nota < 1 | nota > 7) ~ "Error, ingrese un número entre 1 y 7.",
+          nota == 7 ~ '¡Felicidades, tuviste una nota perfecta!',
+          nota >= 4 ~ "¡Felicitaciones!",
+          TRUE ~ 'Reprobaste')
+
+# data.table::fifelse() Este comando es más eficiente en grandes volúmenes de datos.
+
+
+
+
+
+
+
+
+
 
 
 
