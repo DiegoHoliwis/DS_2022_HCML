@@ -118,6 +118,29 @@ alumnos_turing <- tibble(nota = notas,
 
 
 ## Actividad I -----
+born <- read_csv2('Clase 06//Born.csv')
+
+### a ----
+
+# Forma 1
+born %>% 
+  filter(children > 2) %>% 
+  summarise(promedio = mean(children),
+            encuestados = n())
+
+### b ----
+
+# Reemplazo implica que una persona puede salir más de una vez
+# Sin reemplazo, las personas solo pueden salir una vez
+
+# Promedio real de la encuesta
+promedio_real <- born %>% 
+  summarise(promedio = mean(children)) %>% 
+  pull(promedio)
+
+born %>% 
+  sample_n(10, replace = FALSE) %>% 
+  summarise(promedio = mean(children))
 
 
 
