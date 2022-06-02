@@ -260,9 +260,31 @@ que_quiere$ladridos
 perrito(despertarlo = TRUE)
 
 
+## Actividad - Parte II ----
 
+Sampling <- function(v,m,n,remplazo = TRUE, graficar = FALSE){
+  lista_promedios <- c()
+  
+  for (i in 1:m) {
+    lista_promedios[i] <- v %>% 
+      sample_n(n, replace = remplazo) %>% 
+      summarise(promedio = mean(children)) %>% 
+      pull(promedio)
+  }
+  
+  if(graficar == TRUE){
+    grafico <- lista_promedios %>% 
+      tibble(promedio = cummean(.)) %>% 
+      ggplot(aes(x = 1:length(lista_promedios), y = promedio)) +
+      geom_point() +
+      geom_line() +
+      # geom_hline(yintercept = promedio_muestra, color ='darkcyan') +
+      geom_hline(yintercept = promedio_real, color ='red')
+    
+    print(grafico)
+  }
+  
+  return(lista_promedios)
+}
 
-
-
-
-
+resultado <- Sampling(born,400,500,graficar = TRUE)
