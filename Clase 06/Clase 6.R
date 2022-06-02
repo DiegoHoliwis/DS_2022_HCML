@@ -174,6 +174,93 @@ lista_promedios %>%
   geom_hline(yintercept = promedio_real, color ='red')
 
 
+## Comando While ----
+
+resultado <- 51
+while(resultado > 50) {
+  resultado = resultado*2 + 5
+  print(resultado)
+}
+
+
+lista_promedios <- c()
+n = 1
+while(n <= 3000) {
+  print(paste0('Iteración número :',n))
+  lista_promedios[n] <- born %>% 
+    sample_n(50, replace = FALSE) %>% 
+    summarise(promedio = mean(children)) %>% 
+    pull(promedio)
+  n = n+1
+}
+
+lista_promedios %>% 
+  tibble(promedio = cummean(.)) %>% 
+  ggplot(aes(x = 1:3000, y = promedio)) +
+  geom_point() +
+  geom_line() +
+  # geom_hline(yintercept = promedio_muestra, color ='darkcyan') +
+  geom_hline(yintercept = promedio_real, color ='red')
+
+# Comentar todo: Control + shift + c (en windows)
+# Comando + shift + c (MAC)
+
+# paste0('hola ',' y ',' adios')
+# paste('holoa','ádios', sep = '@')
+
+# repeat
+
+lista_promedios <- c()
+n = 1
+repeat{
+  print(paste0('Iteración número :',n))
+  lista_promedios[n] <- born %>% 
+    sample_n(50, replace = FALSE) %>% 
+    summarise(promedio = mean(children)) %>% 
+    pull(promedio)
+  n = n+1
+  
+  if(n > 300){break}
+}
+
+# Creación de funciones ----
+
+# Existen casos donde obligadamente debemos utilizar funciones, por ejemplo, 
+# Al usar apply
+
+Notas_diplomado <- tibble(nota1 = runif(100,1,7),
+       nota2 = runif(100,1,7),
+       nota3 = runif(100,1,7),
+       nota4 = runif(100,1,7),
+       nota5 = runif(100,1,7),
+       nota6 = runif(100,1,7),
+       nota7 = runif(100,1,7),
+       nota8 = runif(100,1,7))
+
+apply(Notas_diplomado, MARGIN = 1,FUN = mean)
+
+
+perrito <- function(ladridos = 0, despertarlo = FALSE){
+  if(despertarlo == TRUE){
+    ladridos = ladridos + runif(1,1,3) %>% round(0)
+  }
+  resultado <- case_when(ladridos == 0 ~ 'durmiendo',
+                         ladridos == 1 ~ 'Saluda',
+                         ladridos == 2 ~ 'tengo hambre',
+                         ladridos == 3 ~ 'quiero pasear',
+                         ladridos > 3 ~ 'problemas')
+  return(list(resultado = resultado, ladridos = ladridos))
+}
+
+que_quiere <- perrito(ladridos = 2)
+
+que_quiere$resultado
+que_quiere$ladridos
+
+perrito(despertarlo = TRUE)
+
+
+
 
 
 
