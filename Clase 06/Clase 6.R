@@ -142,12 +142,36 @@ born %>%
   sample_n(10, replace = FALSE) %>% 
   summarise(promedio = mean(children))
 
+### c ----
+
+lista_promedios <- c()
+
+for (i in 1:3000) {
+  lista_promedios[i] <- born %>% 
+              sample_n(30, replace = FALSE) %>% 
+              summarise(promedio = mean(children)) %>% 
+              pull(promedio)
+}
+
+promedio_muestra <- lista_promedios %>% mean()
+
+# Gráfico
+
+lista_promedios %>% 
+  tibble(promedio = .) %>% 
+  ggplot(aes(x = promedio)) +
+  geom_histogram() +
+  geom_vline(xintercept = promedio_muestra, color ='darkcyan') +
+  geom_vline(xintercept = promedio_real, color ='red')
 
 
-
-
-
-
+lista_promedios %>% 
+  tibble(promedio = cummean(.)) %>% 
+  ggplot(aes(x = 1:3000, y = promedio)) +
+  geom_point() +
+  geom_line() +
+  # geom_hline(yintercept = promedio_muestra, color ='darkcyan') +
+  geom_hline(yintercept = promedio_real, color ='red')
 
 
 
