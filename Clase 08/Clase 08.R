@@ -63,13 +63,12 @@ my_grafico <- function(x,y){
 resumen(anime2)
 my_grafico(anime2)
 
-aux <- anime2 %>% 
-  group_by(genre) %>% 
-  nest() %>% 
-  mutate(Resumen = map(data,resumen),
-         ANOVA   = map(data,.f = function(x){aov(rating ~ type, data = x)}),
-         GRAFICO = map2(data,genre,my_grafico))
-
+aux <- anime2 %>%  # Selecciono la base de datos
+  group_by(genre) %>% # Creamos los grupos para la utilización del nest
+  nest() %>%          # comprimimos la base de datos usando nenst
+  mutate(Resumen = map(data,resumen), # Generamos un resumen para cada conjunto de datos
+         ANOVA   = map(data,.f = function(x){aov(rating ~ type, data = x)}), # Creamos un modelo anova para cada conjunto
+         GRAFICO = map2(data,genre,my_grafico)) # Creamos un gráfico para cada conjunto de datos
 
 aux %>% 
   filter(genre == 'Action') %>% 
@@ -79,14 +78,30 @@ aux %>%
 aux %>% 
   filter(genre == 'Action') %>% 
   pull(ANOVA) %>% 
-  .[[1]] %>% 
+  .[[1]] %>%
   summary()
+
 
 aux %>% 
   filter(genre == 'Drama') %>% 
   pull(GRAFICO)
+
+# Select selecciona la columna y retorna el tibble
+aux %>% 
+  select(genre)
+
+# pull selecciona los valores que tiene la columna y retorna dicho valor
+aux %>% 
+  pull(genre)
+
   
 saveRDS(aux, 'base de resumen.RDS')
 
 perrito <- readRDS('base de resumen.RDS')
+
+
+mylista <- list(1:10,11:20)
+
+mylista[[1]][4]
+
 
