@@ -36,13 +36,57 @@ anime %>%
 
 
 anime2 <- anime %>% 
-  mutate(genre = str_split(genre, pattern = ',')) %>% View()
+  mutate(genre = str_split(genre, pattern = ',')) %>% 
   unnest(genre) %>% 
   mutate(genre = str_trim(genre)) # str_trim elimina los espacios al principio y al final
 
+# 'Romantico, acción' %>% str_split(',')
+
+anime2
+
+resumen <- function(x){
+  x %>% 
+    summarise(numero_anime = n(),
+              prom_rating = mean(rating, na.rm = TRUE),
+              prom_members = mean(members, na.rm = TRUE),
+              prom_episodios = mean(episodes, na.rm = TRUE))
+}
 
 
-'Romantico, acción' %>% str_split(',')
+my_grafico <- function(x,y){
+  x %>% 
+    ggplot(aes(x = rating)) +
+    ggtitle(paste0(y)) + 
+    geom_histogram(fill = 'skyblue', color = '#FFFFFF')
+}
+
+resumen(anime2)
+my_grafico(anime2)
+
+aux <- anime2 %>% 
+  group_by(genre) %>% 
+  nest() %>% 
+  mutate(Resumen = map(data,resumen),
+         ANOVA   = map(data,.f = function(x){aov(rating ~ type, data = x)}),
+         GRAFICO = map2(data,genre,my_grafico))
 
 
+aux %>% 
+  filter(genre == 'Action') %>% 
+  pull(Resumen)
+  
+
+aux %>% 
+  filter(genre == 'Action') %>% 
+  pull(ANOVA) %>% 
+  .[[1]] %>% 
+  summary()
+
+aux %>% 
+  filter(genre == 'Drama') %>% 
+  pull(GRAFICO)
+  
+saveRDS(aux, 'base de resumen.RDS')
+
+perrito <- readRDS('base de resumen.RDS')
 
