@@ -225,3 +225,41 @@ anime %>%
   # stat_summary(fun.data = 'rating', color = 'red')
   stat_summary(fun = 'mean', color = 'red', size = 0.5)
 
+base_chile %>% 
+  mutate(esperanza_de_vida = round(esperanza_de_vida,0)) %>% 
+  ggplot(aes(x = anio, y = esperanza_de_vida)) + 
+  geom_line(color = 'skyblue') +
+  geom_point(color = 'skyblue') +
+  geom_text(aes(label = esperanza_de_vida), vjust= -.5) + 
+  geom_hline(yintercept = 65) + 
+  geom_hline(yintercept = 72) +
+  labs(title = "Esperanza de vida en Chile", 
+       subtitle = "Años 1952 a 2007",
+       x = "Año",
+       y = "Esperanza de vida") +
+  theme_minimal() +
+  theme(axis.ticks = element_blank())
+
+
+ggplot(data = paises, 
+       aes(x = esperanza_de_vida, y = pib_per_capita)) +
+  geom_point(aes(size = poblacion, color = continente), alpha = 0.7)
+
+ggplot(data = base_vecinos, 
+       aes(x = anio, y = esperanza_de_vida, color = pais) ) +
+  geom_point(size = 3) + geom_line(size = 1) +
+  theme(legend.position = 'bottom',
+        legend.title = element_blank(),
+        legend.background = element_rect(fill="#40D94C"))
+  
+
+# options(scipen = 999) Elimina la notación cientifica
+
+
+ggplot(data=mtautos, aes(x=peso, y=millas, color = factor(cilindros) )) +
+  geom_point(size = 8) +
+  scale_color_manual(name = 'Cilindros' ,values = c("#c5c5ff","#ffc5c5","#c5ffc5"))
+
+
+
+
