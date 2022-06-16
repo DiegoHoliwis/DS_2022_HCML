@@ -6,7 +6,7 @@ library(datos)
 library(patchwork)
 library(ggcorrplot)
 
-# Repaso
+# Repaso ----
 getwd() # Estoy parado en la ruta de mi proyecto
 setwd('Clase 08') # Cambio mi ruta a la carpeta clase 08
 
@@ -104,4 +104,50 @@ mylista <- list(1:10,11:20)
 
 mylista[[1]][4]
 
+# Gráficos con ggplot 2 -----
 
+base_chile = paises %>% 
+  filter(pais=="Chile")
+base_vecinos = paises %>% 
+  filter(pais %in% c("Chile","Perú","Bolivia","Argentina"))
+
+df_rating <- anime %>% 
+  group_by(episodes) %>% 
+  summarise(rating = mean(rating, na.rm = TRUE), .groups = 'drop')
+
+
+# R base
+
+plot(x = df_rating$episodes, 
+     y = df_rating$rating,
+     type = 'l',   # tipo de gráfico
+     col = 'red',  # Color
+     lwd = 2,      # Grosor
+     xlab = 'episodios',  # Nombre eje x
+     ylab = 'Rating promedio', # Nombre eje y
+     main = 'Rating promedio por número de episodios') # titulo
+ 
+# ggplot2
+
+df_rating %>% 
+  ggplot()
+
+df_rating %>%
+  ggplot(aes(x = episodes, y = rating)) +
+  geom_line(color = 'red', size = 1.5) +
+  labs(title = 'Rating promedio por número de episodios',
+       subtitle = 'Información extraida al 2019',
+       x  = 'Episodios',
+       y  = 'Rating promedio')
+
+# histograma con r base
+
+hist(anime$rating,
+     breaks = 60,
+     col = rainbow(60))
+
+
+anime %>% 
+  filter(!is.na(rating)) %>% 
+  ggplot(aes(x = rating)) +
+  geom_histogram(bins = 60, fill = '#40D94C', color = '#FFFFFF')
