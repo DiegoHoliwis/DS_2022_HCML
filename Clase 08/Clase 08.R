@@ -151,3 +151,77 @@ anime %>%
   filter(!is.na(rating)) %>% 
   ggplot(aes(x = rating)) +
   geom_histogram(bins = 60, fill = '#40D94C', color = '#FFFFFF')
+
+
+# ggplot2 por capas 
+
+anime %>% 
+  ggplot()
+
+anime %>% 
+  ggplot(aes(x = type))
+
+anime %>% 
+  ggplot(aes(x = type)) + 
+  coord_polar()
+
+anime %>% 
+  ggplot(aes(x = type)) + 
+  coord_polar() +
+  geom_bar(aes(fill = type))
+
+anime %>% 
+  ggplot(aes(x = type)) + 
+  coord_polar() +
+  geom_bar(aes(fill = type))
+
+anime %>% 
+  ggplot(aes(x = type)) + 
+  geom_bar(fill = c('#000000','#000000','#000000',
+                    '#000000','#000000','#40D94C')) +
+  labs(title = 'Mi gráfico Tenpo',
+       x = 'tipo',
+       y = '') +
+  theme_minimal() +
+  theme(plot.title = element_text(color = '#40D94C',
+                                  size = 40)) +
+  coord_polar()
+
+ggplot() +
+  geom_histogram(data = anime %>% filter(type == 'OVA'),
+                 aes(x = rating), fill = 'red', bins = 30, alpha = 0.5) +
+  geom_histogram(data = anime %>% filter(type == 'TV'),
+                 aes(x = rating), fill = 'skyblue', bins = 30, alpha = 0.5) +
+  theme_minimal() +
+  labs(title = 'Distribución OVA vs TV')
+
+
+
+ggplot() +
+  geom_density(data = anime %>% filter(type == 'OVA'),
+                 aes(x = rating), fill = 'red', alpha = 0.5) +
+  geom_density(data = anime %>% filter(type == 'TV'),
+                 aes(x = rating), fill = 'skyblue', alpha = 0.5) +
+  theme_minimal() +
+  labs(title = 'Distribución OVA vs TV')
+
+
+
+ggplot(data = paises, mapping = aes(x = pib_per_capita, 
+                                    y = esperanza_de_vida)) +
+  geom_point(shape = 4, size = 8, 
+             color = "black",  fill = "#c5c5ff")
+
+
+
+anime %>% 
+  filter(!is.na(rating),!is.na(type)) %>% 
+  ggplot(aes(y = type, x = rating)) +
+  geom_boxplot() +
+  geom_violin(aes(fill = type), alpha = .5) +
+  theme(axis.text.y = element_text(angle = 45,
+                                   size = 10,
+                                   color = '#40D94C')) +
+  # stat_summary(fun.data = 'rating', color = 'red')
+  stat_summary(fun = 'mean', color = 'red', size = 0.5)
+
