@@ -61,7 +61,7 @@ my_grafico <- function(x,y){
 }
 
 resumen(anime2)
-my_grafico(anime2)
+my_grafico(anime2, y = 'Mi gráfico')
 
 aux <- anime2 %>%  # Selecciono la base de datos
   group_by(genre) %>% # Creamos los grupos para la utilización del nest
