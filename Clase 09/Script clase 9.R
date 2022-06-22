@@ -1,11 +1,22 @@
 # Clase numero 9 HCML -----
+
+# https://r-graph-gallery.com/all-graphs Muchos gráficos :D
+
 library(tidyverse)
 library(datos)
-library(patchwork)
-library(showtext)
+library(patchwork) # Permite visualizar varios gráficos al mismo tiempo
+library(showtext)  # Permite añadir fond
+showtext_auto()
 library(ggcorrplot)
 library(gganimate)
 # library(plotly)
+
+
+windowsFonts()
+
+font_add_google('Fascinate','Fascinate')
+font_add_google('Alfa Slab One','Alfa Slab One')
+
 
 # Repaso clase 8 ----
 
@@ -13,6 +24,8 @@ anime <- read_csv2('anime.csv')
 anime2 <- anime %>% 
   mutate(genre = genre %>% str_split(', ')) %>% 
   unnest(genre)
+
+
 
 anime %>% 
   filter(!is.na(type)) %>% 
@@ -26,10 +39,13 @@ anime %>%
   theme(legend.position = 'none',
         plot.title = element_text(color = 'red',
                                   size = 25,
-                                  family = 'serif'))
+                                  family = 'Fascinate'),
+        plot.subtitle =  element_text(color = 'red',
+                                      size = 15,
+                                      family = 'Fascinate'))
 
 
-windowsFonts()
+
 
 # gráfico de puntos
 anime %>% 
