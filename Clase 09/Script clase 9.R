@@ -6,7 +6,7 @@ library(tidyverse)
 library(datos)
 library(patchwork) # Permite visualizar varios gráficos al mismo tiempo
 library(showtext)  # Permite añadir fond
-showtext_auto()
+showtext_auto()    # Activa los nuevos fonds
 library(ggcorrplot)
 library(gganimate)
 # library(plotly)
@@ -45,13 +45,29 @@ anime %>%
                                       family = 'Fascinate'))
 
 
-
-
 # gráfico de puntos
 anime %>% 
   group_by(type, episodes) %>% 
   summarise(cantidad = mean(rating)) %>% 
   ggplot() +
   geom_point(aes(x = episodes,
-                 y = cantidad), color = 'red')
+                 y = cantidad), color = '#C10A0A90') # Los ultimos 2 numeros indican la transparencia del color
+
+Cor_Autos = cor(mtautos) # crear una matriz de correlación
+ggcorrplot(Cor_Autos) +  # La función ggcorplot recibe una matriz de correlación
+  # Se puede modificar con las funciones clásicas de ggplot
+  theme_bw() +
+  labs(title = 'gráfico de prueba',
+       x = '')
+
+
+ggplot(data=paises, 
+       aes(x = esperanza_de_vida, 
+           y = pib_per_capita, color = continente))+
+  geom_point(size = 2, alpha = 0.7) + 
+  theme_minimal() +
+  facet_wrap(~ continente, nrow = 5, scales = 'free_x')
+
+
+
 
