@@ -69,5 +69,41 @@ ggplot(data=paises,
   facet_wrap(~ continente, nrow = 5, scales = 'free_x')
 
 
+# Grilla de gráficos
+gg1 <- anime %>% 
+  filter(!is.na(type)) %>% 
+  ggplot(aes(x = type, fill = type)) +
+  geom_bar() +
+  labs(title = 'Tipos de anime',
+       subtitle = 'Al 2019',
+       x = 'Categoria del anime',
+       y = 'Registros') +
+  theme_minimal() +
+  theme(legend.position = 'none',
+        plot.title = element_text(color = 'red',
+                                  size = 25,
+                                  family = 'Fascinate'),
+        plot.subtitle =  element_text(color = 'red',
+                                      size = 15,
+                                      family = 'Fascinate'))
+
+gg2 <- ggplot(data=paises, 
+              aes(x = esperanza_de_vida, 
+                  y = pib_per_capita, color = continente))+
+  geom_point(size = 2, alpha = 0.7) + 
+  theme_minimal() 
+
+(gg1 + gg2) / gg2
 
 
+# Como cambiar el número de break y limites de los ejes
+
+ggplot(data=paises, 
+       aes(x = esperanza_de_vida, 
+           y = pib_per_capita, color = continente))+
+  geom_point(size = 2, alpha = 0.7) + 
+  theme_minimal() +
+  scale_x_continuous(n.breaks = 10,
+                     limits = c(30,60)) + 
+  scale_y_continuous(n.breaks = 15,
+                     limit = c(0,10000))
