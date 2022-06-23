@@ -265,4 +265,62 @@ animate(plot_3 +
           enter_fade() +
           exit_shrink())
 
+plotly::ggplotly(plot_1)
+
+
+# Higcharter
+
+library(highcharter)
+
+cols <- c("#4285F4",'#3F06E2','#CD8D04','#9C0ADB','#FBBC05','#34A853','#EA4335','#9C0ADB')
+
+data <- fread('https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto5/TotalesNacionales_T.csv') %>%
+  tibble() %>%
+  select(Fecha,Casos = `Casos nuevos totales`) %>% 
+  filter(Fecha >= '2021-01-01',
+         Fecha <= '2022-06-21')
+
+
+data %>% 
+  hchart(type = "line", 
+         showInLegend = TRUE,
+         hcaes(x = Fecha, 
+               y = Casos)) %>% 
+  hc_xAxis(
+    title = list(text = "Fecha"),
+    labels = list(
+      # rotation = -45,
+      format = '{value:%y/%m/%d}')
+  ) %>% 
+  hc_yAxis(opposite = FALSE,
+           title = list(text = "Casos COVID"),
+           labels = list(format = "{value}"))%>% 
+  hc_title(text = paste0('Casos COVID'),
+           margin = 30,
+           align = "left") %>% 
+  hc_subtitle(text = 'Casos Chile', 
+              align = "left") %>% 
+  hc_legend(enabled = FALSE
+            # align = "right",
+            # verticalAlign = "top",
+            # layout = "horizontal"
+  ) %>% 
+  hc_credits(enabled = TRUE,
+             text = "Datos ministerio de ciencia",
+             href = "https://github.com/MinCiencia/Datos-COVID19"
+  ) %>% 
+  hc_colors(cols) %>%
+  hc_tooltip(
+    pointFormat = "<span>Casos covid: <b>{point.y}</b><br></span>",
+    shared = TRUE,
+    borderWidth = 0
+  ) %>% 
+  hc_chart(
+    zoomType = "x"
+  ) %>% 
+  hc_exporting(
+    enabled = TRUE, # always enabled
+    filename = "custom-file-name"
+  )
+
 
