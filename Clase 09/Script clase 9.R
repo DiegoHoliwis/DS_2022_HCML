@@ -237,6 +237,32 @@ gg3 <- ggplot(data = america07, aes(x = pib_per_capita,
 
 plotly::ggplotly(gg3)
 
-## Anime
+## ggAnime
+
+plot_1 = ggplot(data = base_vecinos, 
+                aes(x = anio, y = esperanza_de_vida, color = pais) ) +
+  geom_line(size = 1) 
+
+animate(plot_1 + 
+          geom_point(aes(group = seq_along(anio)), size = 2) + 
+          transition_reveal(anio))
+
+
+plot_3 = ggplot(paises, aes(x = pib_per_capita,
+                            y = esperanza_de_vida,
+                            color = continente)) +
+  geom_point(size=5, alpha=0.5) +
+  labs(x = "PIB per cápita (en dólares)",
+       y = "Esperanza de vida (en años)",
+       title = "Esperanza de vida dado PIB pér cápita",
+       subtitle = "Diferenciado según continente")
+plot_3
+
+animate(plot_3 +
+          transition_states(continente,transition_length = 1,
+                            state_length = 2) +
+          shadow_mark(alpha=0.3, size=2) +
+          enter_fade() +
+          exit_shrink())
 
 
