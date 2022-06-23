@@ -277,16 +277,21 @@ cols <- c("#4285F4",'#3F06E2','#CD8D04','#9C0ADB','#FBBC05','#34A853','#EA4335',
 
 data <- fread('https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto5/TotalesNacionales_T.csv') %>%
   tibble() %>%
-  select(Fecha,Casos = `Casos nuevos totales`) %>% 
+  select(Fecha,
+         Casos = `Casos nuevos totales`,
+         `Casos activos`) %>% 
   filter(Fecha >= '2021-01-01',
          Fecha <= '2022-06-21')
 
+data %>% names()
 
 data %>% 
   hchart(type = "line", 
+         name = 'Casos COVID',
          showInLegend = TRUE,
          hcaes(x = Fecha, 
                y = Casos)) %>% 
+  hc_add_series(data,showInLegend = TRUE,type = 'line',name = 'Activos', hcaes(x = Fecha, y = `Casos activos`)) %>% 
   hc_xAxis(
     title = list(text = "Fecha"),
     labels = list(
@@ -295,13 +300,13 @@ data %>%
   ) %>% 
   hc_yAxis(opposite = FALSE,
            title = list(text = "Casos COVID"),
-           labels = list(format = "{value}"))%>% 
+           labels = list(format = "{value}")) %>% 
   hc_title(text = paste0('Casos COVID'),
            margin = 30,
            align = "left") %>% 
   hc_subtitle(text = 'Casos Chile', 
               align = "left") %>% 
-  hc_legend(enabled = FALSE
+  hc_legend(enabled = TRUE
             # align = "right",
             # verticalAlign = "top",
             # layout = "horizontal"
@@ -312,7 +317,7 @@ data %>%
   ) %>% 
   hc_colors(cols) %>%
   hc_tooltip(
-    pointFormat = "<span>Casos covid: <b>{point.y}</b><br></span>",
+    # pointFormat = "<span>Casos COVID: <b>{point.y}</b><br></span>",
     shared = TRUE,
     borderWidth = 0
   ) %>% 
