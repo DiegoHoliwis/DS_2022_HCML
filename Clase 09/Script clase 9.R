@@ -271,6 +271,7 @@ plotly::ggplotly(plot_1)
 # Higcharter
 
 library(highcharter)
+library(data.table)
 
 cols <- c("#4285F4",'#3F06E2','#CD8D04','#9C0ADB','#FBBC05','#34A853','#EA4335','#9C0ADB')
 
