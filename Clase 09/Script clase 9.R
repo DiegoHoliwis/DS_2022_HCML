@@ -12,6 +12,7 @@ library(gganimate)
 # library(plotly)
 # install.packages('GGally')
 library(GGally)
+library(ggrepel)
 
 windowsFonts()
 
@@ -209,12 +210,33 @@ ggplot(data = mtautos, aes(x=millas, y=velocidad))+
 
 # GGpairs
 
+# Solo utilizar para pequeños conjuntos de datos
+GGally::ggpairs(flores)
 
 
+# Texto en los gráficos
+
+ggplot(data=mtautos, aes(x=peso, y=millas)) +
+  geom_point(color = "darkgreen", alpha = 0.5) + 
+  geom_label(x = 3.5, y = 25, label = "Texto de prueba",
+            color = "black",stat = "unique", size = 10)
 
 
+gg3 <- ggplot(data = america07, aes(x = pib_per_capita, 
+                             y = esperanza_de_vida)) + 
+  geom_point(size=4, alpha=0.3, col = "darkblue") + 
+  geom_text(aes(label = pais))
 
 
+gg3 <- ggplot(data = america07, aes(x = pib_per_capita, 
+                             y = esperanza_de_vida)) + 
+  geom_point(size=4, alpha=0.3, col = "darkblue") + 
+  ggrepel::geom_text_repel(aes(label = pais))
 
+## Plotly
+
+plotly::ggplotly(gg3)
+
+## Anime
 
 
