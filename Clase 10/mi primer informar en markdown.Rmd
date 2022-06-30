@@ -1,0 +1,153 @@
+---
+title: "Mi primer informe en Markdown"
+author: 
+  - "Data Science UC"
+  - 'Diego Muñoz'
+  - 'Javiera Preuss'
+  - 'Josefa Silva'
+date: "`r format(Sys.Date(),'%d de %B, %Y')`"
+output: html_document
+---
+
+<style>
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+</style>
+
+# Mi primer informe 
+
+## Parte 1 de mi informe
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(DT)
+library(tidyverse)
+library(datos)
+```
+
+Hola, la fecha de hoy es `r Sys.Date()`, bla bla bla
+
+```{r}
+Sys.Date()
+```
+
+- **Letra en negrilla**
+- *Letra cursiva*
+_ ~~letra tachada~~
+
+## Parte 2 de mi informe
+
+RStudio es un entorno de desarrollo integrado (IDE) para el lenguaje de programación R, dedicado a la computación estadística y gráficos. Incluye una consola, editor de sintaxis que apoya la ejecución de código, así como herramientas para el trazado, la depuración y la gestión del espacio de trabajo.
+
+RStudio está disponible para Windows, Mac y Linux o para navegadores conectados a RStudio Server o RStudio Server Pro (Debian / Ubuntu, RedHat / CentOS, y SUSE Linux).3​ RStudiotiene la misión de proporcionar el entorno informático estadístico R. Permite un análisis y desarrollo para que cualquiera pueda analizar los datos con R.
+
+> Mi primera cita
+
+>> Mi segunda cita
+  
+> Mi tercera cita
+
+
+# Listas
+
+a) Hola
+b) hola
+
+1. Hola
+2. Hola
+
+- Hola
+- Hola
+
+1) Adiós
+  A) Hola
+  B) Hola
+2) Adiós
+  A) Hola
+
+
+# Tablas
+
+ Derecha   |  Centro   | Izquierda
+ ---------:|:---------:| :----------
+ Celda 1   | Celda 2   | Celda 3
+ Celda 4   | Celda 5   | Celda 6
+
+# Tablas de datos
+
+utilizaremos la función `datatable` de la libreria `DT`
+
+```{r}
+clima %>% 
+  slice(1:1000) %>% 
+  DT::datatable()
+```
+
+```{r}
+iris %>% 
+  group_by(Species) %>% 
+  summarise(promedio_sepallength = mean(Sepal.Length),
+            promedio_sepalwidth  = mean(Sepal.Width),
+            promedio_petallegth  = mean(Petal.Length),
+            promedio_petalwidth  = mean(Petal.Width)) %>% 
+DT::datatable(
+  extensions = c('Buttons'),
+  rownames = FALSE,
+  options = list(
+    dom = "Bt"
+    ,buttons = list(
+      list(extend = 'excel',
+           text = 'Descargar - EXCEL',
+           filename = paste0("Iris.xlsx"),
+           exportOptions = list(
+             modifier = list(page = "all")
+           )
+      )
+    )
+    ,language = list(url = '//cdn.datatables.net/plug-ins/1.10.25/i18n/Spanish.json')
+    # ,lengthMenu = list(c(5,10,20,30,-1), list('5','10','20','30','Todo'))
+    ,pageLength = -1
+    ,columnDefs = list(list(className = 'dt-center', targets = "_all"))
+    ,initComplete = JS(
+      "function(settings, json) {",
+      "$(this.api().table().header()).css({'font-size': '15px','background-color': '#04346c', 'color': '#fff'});
+            $(this.api().table().container()).css({'font-size': '13px'})",
+      "}")
+    # ,rowCallback = JS('
+    #                    function(nRow, aData, iDisplayIndex, iDisplayIndexFull,displayNum) {
+    #                    if (parseFloat(aData[1]) < 0.01)
+    #                    $("td:eq(1)", nRow).css("opacity", 0.3),
+    #                    $("td:eq(1)", nRow).css("color", "green");
+    #                    if (parseFloat(aData[2]) < 5) 
+    #                    $("td:eq(2)", nRow).css("opacity", 0.3),
+    #                    $("td:eq(2)", nRow).css("color", "green");
+    #                    if (parseFloat(aData[3]) < 0.01)
+    #                    $("td:eq(3)", nRow).css("opacity", 0.3),
+    #                    $("td:eq(3)", nRow).css("color", "green");
+    #                    if (parseFloat(aData[4]) < 0.01)
+    #                    $("td:eq(4)", nRow).css("opacity", 0.3),
+    #                    $("td:eq(4)", nRow).css("color", "green");
+    #                    if (parseFloat(aData[5]) < 0.01)
+    #                    $("td:eq(5)", nRow).css("opacity", 0.3),
+    #                    $("td:eq(5)", nRow).css("color", "green");
+    #                    if (parseFloat(iDisplayIndexFull) == 0)
+    #                    $("td", nRow).css({"background-color": "#FA9E08"});
+    #                    if (parseFloat(iDisplayIndexFull) == 1)
+    #                    $("td", nRow).css({"background-color": "#FA9E08"});
+    #                    if (parseFloat(iDisplayIndexFull) == 2)
+    #                    $("td", nRow).css({"background-color": "#FED187"});
+    #                    }')
+  ),
+  fillContainer = TRUE,
+  class = "display") %>% 
+  formatRound(columns = c('promedio_sepallength'), digits = 0) %>% 
+  formatPercentage(columns = c('promedio_sepalwidth'))
+```
+
