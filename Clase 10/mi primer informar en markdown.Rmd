@@ -6,11 +6,24 @@ author:
   - 'Javiera Preuss'
   - 'Josefa Silva'
 date: "`r format(Sys.Date(),'%d de %B, %Y')`"
-output: html_document
+output:
+  rmdformats::material:
+  code_folding: show #hide
 ---
 
-<style>
+```{=html}
+<script>
+  $(document).ready(function() {
+    $head = $('#header');
+    $head.prepend('<img src=\"https://raw.githubusercontent.com/DiegoHoliwis/DIGITAPALOOZA_2022/main/Presentaci%C3%B3n/media/logo3.png" style=\"float: left;width: 200px;\" />')
+  });
+</script>
 
+
+
+
+
+<style>
 p {
   font-size: 20px;
 }
@@ -20,13 +33,19 @@ h1 {
 }
 
 </style>
+```
 
 # Mi primer informe 
 
 ## Parte 1 de mi informe
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = TRUE,
+                      message = FALSE,
+                      warning = FALSE)
+```
+
+```{r eval = TRUE}
 library(DT)
 library(tidyverse)
 library(datos)
@@ -44,7 +63,9 @@ _ ~~letra tachada~~
 
 ## Parte 2 de mi informe
 
+<div>
 RStudio es un entorno de desarrollo integrado (IDE) para el lenguaje de programación R, dedicado a la computación estadística y gráficos. Incluye una consola, editor de sintaxis que apoya la ejecución de código, así como herramientas para el trazado, la depuración y la gestión del espacio de trabajo.
+</div>
 
 RStudio está disponible para Windows, Mac y Linux o para navegadores conectados a RStudio Server o RStudio Server Pro (Debian / Ubuntu, RedHat / CentOS, y SUSE Linux).3​ RStudiotiene la misión de proporcionar el entorno informático estadístico R. Permite un análisis y desarrollo para que cualquiera pueda analizar los datos con R.
 
@@ -84,7 +105,7 @@ b) hola
 
 utilizaremos la función `datatable` de la libreria `DT`
 
-```{r}
+```{r eval = TRUE}
 clima %>% 
   slice(1:1000) %>% 
   DT::datatable()
@@ -125,7 +146,7 @@ DT::datatable(
     #                    if (parseFloat(aData[1]) < 0.01)
     #                    $("td:eq(1)", nRow).css("opacity", 0.3),
     #                    $("td:eq(1)", nRow).css("color", "green");
-    #                    if (parseFloat(aData[2]) < 5) 
+    #                    if (parseFloat(aData[2]) < 5)
     #                    $("td:eq(2)", nRow).css("opacity", 0.3),
     #                    $("td:eq(2)", nRow).css("color", "green");
     #                    if (parseFloat(aData[3]) < 0.01)
@@ -147,7 +168,29 @@ DT::datatable(
   ),
   fillContainer = TRUE,
   class = "display") %>% 
-  formatRound(columns = c('promedio_sepallength'), digits = 0) %>% 
-  formatPercentage(columns = c('promedio_sepalwidth'))
+  formatRound(columns = c('promedio_sepallength'), digits = 0)
 ```
+
+
+[Mi perfil](https://www.linkedin.com/in/diegomu%C3%B1ozu/)
+![](https://www.diplomadosonline.com/wp-content/uploads/2020/02/What_is_Data_Science-1080x675.jpg)
+![](https://raw.githubusercontent.com/DiegoHoliwis/DIGITAPALOOZA_2022/main/Presentaci%C3%B3n/media/logo3.png)
+
+# LaTex
+
+$H_o$
+
+
+$$f(k) = {m \choose k} p^{k} (1-p)^{m-k} \quad k = 0, 1, \ldots, m$$
+
+$$F(x) = \left\{
+\begin{array}{ll}
+\int_0^x \lambda e^{-\lambda t}dt & x \geq 0  \\ 0   & x < 0
+\end{array} \right.$$
+
+
+
+
+
+
 
