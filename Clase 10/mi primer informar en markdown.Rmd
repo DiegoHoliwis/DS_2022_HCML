@@ -1,5 +1,5 @@
 ---
-title: "Mi primer informe en Markdown"
+title: "Hola"
 author: 
   - "Data Science UC"
   - 'Diego Muñoz'
@@ -8,7 +8,7 @@ author:
 date: "`r format(Sys.Date(),'%d de %B, %Y')`"
 output:
   rmdformats::material:
-  code_folding: show #hide
+    code_folding: show #hide
 ---
 
 ```{=html}
@@ -54,17 +54,27 @@ h1, h2, h3, h4, h5, h6, legend {
 </style>
 ```
 
-# Mi primer informe 
+```{css, echo = FALSE}
+.myBox {
+  border: none;
+  padding: 5px;
+  font: 18px/24px sans-serif;
+  width: max;
+  overflow-x: auto;
+  <!-- overflow: scroll; -->
+}
+```
+
+# Mi primer informe
 
 ## Parte 1 de mi informe
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE,
-                      message = FALSE,
+```{r setup, message = FALSE}
+knitr::opts_chunk$set(message = FALSE,
                       warning = FALSE)
 ```
 
-```{r eval = TRUE}
+```{r}
 library(DT)
 library(tidyverse)
 library(datos)
@@ -76,49 +86,59 @@ Hola, la fecha de hoy es `r Sys.Date()`, bla bla bla
 Sys.Date()
 ```
 
-- **Letra en negrilla**
-- *Letra cursiva*
-_ ~~letra tachada~~
+-   **Letra en negrilla**
+-   *Letra cursiva* \_ ~~letra tachada~~
 
 ## Parte 2 de mi informe
 
 <div>
+
 RStudio es un entorno de desarrollo integrado (IDE) para el lenguaje de programación R, dedicado a la computación estadística y gráficos. Incluye una consola, editor de sintaxis que apoya la ejecución de código, así como herramientas para el trazado, la depuración y la gestión del espacio de trabajo.
+
 </div>
 
 RStudio está disponible para Windows, Mac y Linux o para navegadores conectados a RStudio Server o RStudio Server Pro (Debian / Ubuntu, RedHat / CentOS, y SUSE Linux).3​ RStudiotiene la misión de proporcionar el entorno informático estadístico R. Permite un análisis y desarrollo para que cualquiera pueda analizar los datos con R.
 
 > Mi primera cita
 
->> Mi segunda cita
-  
-> Mi tercera cita
+> > Mi segunda cita
 
+> Mi tercera cita
 
 # Listas
 
-a) Hola
-b) hola
+a)  Hola
+b)  hola
 
-1. Hola
-2. Hola
+<!-- -->
 
-- Hola
-- Hola
+1.  Hola
+2.  Hola
 
-1) Adiós
-  A) Hola
-  B) Hola
-2) Adiós
-  A) Hola
+-   Hola
+-   Hola
 
+1)  Adiós
+
+<!-- -->
+
+A)  Hola
+B)  Hola
+
+<!-- -->
+
+2)  Adiós
+
+<!-- -->
+
+A)  Hola
 
 # Tablas
 
- Derecha   |  Centro   | Izquierda
- ---------:|:---------:| :----------
- Celda 1   | Celda 2   | Celda 3
- Celda 4   | Celda 5   | Celda 6
+| Derecha | Centro  | Izquierda |
+|--------:|:-------:|:----------|
+| Celda 1 | Celda 2 | Celda 3   |
+| Celda 4 | Celda 5 | Celda 6   |
 
 # Tablas de datos
 
@@ -190,15 +210,11 @@ DT::datatable(
   formatRound(columns = c('promedio_sepallength'), digits = 0)
 ```
 
-
-[Mi perfil](https://www.linkedin.com/in/diegomu%C3%B1ozu/)
-![](https://www.diplomadosonline.com/wp-content/uploads/2020/02/What_is_Data_Science-1080x675.jpg)
-![](https://raw.githubusercontent.com/DiegoHoliwis/DIGITAPALOOZA_2022/main/Presentaci%C3%B3n/media/logo3.png)
+[Mi perfil](https://www.linkedin.com/in/diegomu%C3%B1ozu/) ![](https://www.diplomadosonline.com/wp-content/uploads/2020/02/What_is_Data_Science-1080x675.jpg) ![](https://raw.githubusercontent.com/DiegoHoliwis/DIGITAPALOOZA_2022/main/Presentaci%C3%B3n/media/logo3.png)
 
 # LaTex
 
 $H_o$
-
 
 $$f(k) = {m \choose k} p^{k} (1-p)^{m-k} \quad k = 0, 1, \ldots, m$$
 
@@ -207,9 +223,40 @@ $$F(x) = \left\{
 \int_0^x \lambda e^{-\lambda t}dt & x \geq 0  \\ 0   & x < 0
 \end{array} \right.$$
 
+| Col1 | Col2 | Col3 | Col4 | Col5 |
+|------|------|------|------|------|
+|      |      |      |      |      |
+|      |      |      |      |      |
+|      |      |      |      |      |
+|      |      |      |      |      |
+|      |      |      |      |      |
+|      |      |      |      |      |
 
+: Una tabla
 
+[![](https://www.reale.cl/v2/wp-content/themes/reale_010720/img/logoRealeColor5a.png "Una imagen"){width="300"}](https://www.reale.cl/)
 
+-   Hola, como estas **así, saludos**
+
+    1.  <div>
+
+        > fieurfvbipwervf [www.google.cl](www.google.cl)
+
+        </div>
+
+```{=html}
+<!-- -->
+```
+
+# Final
+
+```{r eval=FALSE, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+
+print('Fin de la clase D:')
+```
+
+<div class="myBox"> 
+$$ kejfbqweiujfbweipufbwepiufbwepruifbwpeurbfwpiuefbwpuefbwuebfwuefbwieufbwieufbwiuefbwiurfbwqepufbqwpiuefbqwiuefbqwiufbweqfuibqwpfuqwb[p] $$</div>
 
 
 
