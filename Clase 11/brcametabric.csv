@@ -1,0 +1,1656 @@
+Patient ID,Age at Diagnosis,Cancer Type,3-Gene classifier subtype,Primary Tumor Laterality
+MB-0000,75.65,Breast Cancer,ER-/HER2-,Right
+MB-0002,43.19,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0008,76.97,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0010,78.77,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0020,70,Breast Cancer,ER-/HER2-,Left
+MB-0028,86.41,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0035,84.22,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0036,85.49,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0050,44.64,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0059,75.58,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0060,45.43,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0066,61.49,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0100,68.68,Breast Cancer,ER-/HER2-,Right
+MB-0101,46.89,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0102,51.38,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0106,49.87,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0111,54.23,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0112,83.89,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0113,36.96,Breast Cancer,HER2+,Right
+MB-0114,48.59,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0115,39.84,Breast Cancer,ER-/HER2-,Left
+MB-0116,42.55,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0117,60.07,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0119,82.73,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0120,72.1,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0121,78.73,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0122,58.95,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0123,76.89,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0124,43.46,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0125,73.98,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0126,61.95,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0127,52.11,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0128,57.4,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0129,63.53,Breast Cancer,HER2+,Right
+MB-0130,56.75,Breast Cancer,HER2+,Left
+MB-0131,69.16,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0133,58.89,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0134,73.11,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0135,74.09,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0136,72.3,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0138,51.33,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0139,47.62,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0140,74.07,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0142,57.99,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0143,85.39,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0144,79.73,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0145,62.4,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0146,81,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0147,79.28,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0148,53.16,Breast Cancer,HER2+,Left
+MB-0149,77.13,Breast Cancer,ER-/HER2-,Right
+MB-0150,70.22,Breast Cancer,ER-/HER2-,Left
+MB-0151,67.7,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0152,63.77,Breast Cancer,HER2+,Right
+MB-0153,67.12,Breast Cancer,ER-/HER2-,Left
+MB-0154,62.46,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0155,62.72,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0157,71.5,Breast Cancer,ER-/HER2-,Left
+MB-0158,50.43,Breast Cancer,ER-/HER2-,Left
+MB-0159,51.04,Breast Cancer,HER2+,Left
+MB-0162,57.56,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0164,37.87,Breast Cancer,ER-/HER2-,Left
+MB-0165,53.75,Breast Cancer,HER2+,Left
+MB-0166,44.98,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0167,76.4,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0168,60.26,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0169,79.28,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0170,83.35,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0171,64.57,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0172,48.11,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0173,83.99,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0174,59.18,Breast Cancer,ER-/HER2-,Left
+MB-0175,69.51,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0176,38.78,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0177,85.94,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0179,56.39,Breast Cancer,ER-/HER2-,Right
+MB-0180,51.69,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0181,68.45,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0184,68.41,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0185,76.84,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0189,57.79,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0192,62.55,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0193,51.54,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0194,56.45,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0195,75.18,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0197,50.48,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0198,43.37,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0199,57.56,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0201,49.5,Breast Cancer,HER2+,Left
+MB-0202,46,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0203,86.24,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0204,79.38,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0205,53.56,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0206,55.02,Breast Cancer,ER-/HER2-,Left
+MB-0207,48.13,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0209,67.17,Breast Cancer,ER-/HER2-,Right
+MB-0211,42.95,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0214,41.41,Breast Cancer,ER-/HER2-,Left
+MB-0215,75.63,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0218,43.39,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0220,37.24,Breast Cancer,HER2+,Right
+MB-0221,77.72,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0222,50.31,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0223,50.45,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0224,44.01,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0225,59.15,Breast Cancer,HER2+,Left
+MB-0226,58.21,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0227,52.95,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0228,63.35,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0229,45.5,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0230,41.98,Breast Cancer,HER2+,Left
+MB-0231,71.57,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0232,44.73,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0233,77.77,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0234,56.27,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0235,52.55,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0236,43.63,Breast Cancer,HER2+,Right
+MB-0238,52.19,Breast Cancer,ER-/HER2-,Right
+MB-0239,77.85,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0242,51.25,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0243,53.72,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0245,54.76,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0247,66.75,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0248,45.76,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0249,53.45,Breast Cancer,ER-/HER2-,Right
+MB-0253,69.19,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0257,57.61,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0258,62.7,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0260,78.26,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0261,63.93,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0263,76.49,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0264,83.93,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0265,46.44,Breast Cancer,ER-/HER2-,Right
+MB-0269,45.39,Breast Cancer,ER-/HER2-,Right
+MB-0270,29.98,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0272,55.36,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0273,68.66,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0275,61.94,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0279,69.52,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0280,47.64,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0282,51.81,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0283,60.3,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0288,55.22,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0289,75.91,Breast Cancer,ER-/HER2-,Right
+MB-0290,49.92,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0291,51.19,Breast Cancer,HER2+,Right
+MB-0292,80.34,Breast Cancer,ER-/HER2-,Left
+MB-0293,51.62,Breast Cancer,ER-/HER2-,Right
+MB-0294,46.17,Breast Cancer,HER2+,Left
+MB-0295,47.13,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0299,68.83,Breast Cancer,ER-/HER2-,Left
+MB-0301,82.46,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0302,81.53,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0303,47.71,Breast Cancer,ER-/HER2-,Left
+MB-0305,60.62,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0306,82.53,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0307,41.63,Breast Cancer,HER2+,Right
+MB-0309,89.43,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0310,67.38,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0311,77.94,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0312,70.49,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0313,55.52,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0314,73.48,Breast Cancer,HER2+,Left
+MB-0315,56.32,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0316,50.82,Breast Cancer,ER-/HER2-,Left
+MB-0317,76.68,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0318,58.01,Breast Cancer,ER-/HER2-,Left
+MB-0319,92.14,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0320,50.98,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0321,46.86,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0322,86.28,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0324,47.64,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0325,79.34,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0327,66.73,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0328,69.62,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0336,74.76,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0339,90.43,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0340,79.97,Breast Cancer,ER-/HER2-,Right
+MB-0342,54.96,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0344,59.75,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0345,37.3,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0346,32.61,Breast Cancer,HER2+,Left
+MB-0347,52.24,Breast Cancer,ER-/HER2-,Right
+MB-0348,81.88,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0349,72.26,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0352,61.32,Breast Cancer,ER-/HER2-,Left
+MB-0353,86.26,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0354,73.01,Breast Cancer,ER-/HER2-,Left
+MB-0356,58.16,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0358,57.87,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0360,83.58,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0361,40.5,Breast Cancer,HER2+,Right
+MB-0362,52.79,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0363,73.24,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0364,48.67,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0365,76.84,Breast Cancer,ER-/HER2-,Right
+MB-0366,51.74,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0368,74.79,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0370,64.01,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0371,78.41,Breast Cancer,HER2+,Right
+MB-0372,39.86,Breast Cancer,ER-/HER2-,Right
+MB-0373,63.31,Breast Cancer,HER2+,Left
+MB-0374,34.68,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0375,72.69,Breast Cancer,ER-/HER2-,Right
+MB-0377,63.25,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0378,57.15,Breast Cancer,HER2+,Right
+MB-0379,48.22,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0380,83.9,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0381,33.65,Breast Cancer,HER2+,Right
+MB-0382,59.05,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0383,65.02,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0384,74.58,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0385,66.58,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0386,66.83,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0388,46.63,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0389,46.87,Breast Cancer,HER2+,Right
+MB-0390,40.68,Breast Cancer,HER2+,Right
+MB-0392,56.28,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0393,68.74,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0394,56.48,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0395,80.38,Breast Cancer,HER2+,Left
+MB-0396,56.45,Breast Cancer,ER-/HER2-,Left
+MB-0397,58.56,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0398,56.41,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0399,68.47,Breast Cancer,ER-/HER2-,Left
+MB-0400,55.28,Breast Cancer,ER-/HER2-,Right
+MB-0401,48.58,Breast Cancer,ER-/HER2-,Right
+MB-0402,73.06,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0403,58.96,Breast Sarcoma,ER-/HER2-,Left
+MB-0404,60.71,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0405,72.85,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0406,69.32,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0408,51.01,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0410,57.41,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0411,54.6,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0412,54.06,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0413,56.58,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0414,72.16,Breast Cancer,ER-/HER2-,Left
+MB-0417,54.22,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0418,58.72,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0419,77.92,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0420,34.92,Breast Cancer,ER-/HER2-,Left
+MB-0421,73.53,Breast Cancer,HER2+,Left
+MB-0422,66.72,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0423,71.1,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0424,44.02,Breast Cancer,ER-/HER2-,Left
+MB-0425,83.17,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0426,50.48,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0427,81.89,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0428,85.21,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0429,78.86,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0431,63.61,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0432,60.07,Breast Cancer,ER-/HER2-,Right
+MB-0434,69.79,Breast Cancer,HER2+,Right
+MB-0436,88.29,Breast Cancer,ER-/HER2-,Left
+MB-0437,82.17,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0438,57.41,Breast Cancer,HER2+,Left
+MB-0439,50.32,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0440,56.73,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0442,71.58,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0443,61.67,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0444,49.87,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0445,40.07,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0446,56.96,Breast Cancer,ER-/HER2-,Right
+MB-0448,59.45,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0449,54.38,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0451,63.2,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0452,54.43,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0453,61.11,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0454,90.02,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0455,56.84,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0458,49.28,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0459,85.09,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0460,81.44,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0462,60.5,Breast Cancer,HER2+,Right
+MB-0463,60.48,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0464,58.98,Breast Cancer,ER-/HER2-,Right
+MB-0465,87.18,Breast Cancer,HER2+,Left
+MB-0466,33.97,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0467,58.35,Breast Cancer,HER2+,Left
+MB-0469,67.94,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0471,76.49,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0472,59.34,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0474,54.29,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0475,54.15,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0476,54.62,Breast Cancer,ER-/HER2-,Left
+MB-0478,74.02,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0479,33.83,Breast Cancer,HER2+,Left
+MB-0480,51.86,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0481,54.22,Breast Cancer,ER-/HER2-,Left
+MB-0482,39.53,Breast Cancer,HER2+,Right
+MB-0483,49.61,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0484,38.72,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0485,60.78,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0486,57.57,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0487,57.36,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0488,50.64,Breast Cancer,ER-/HER2-,Left
+MB-0489,41.46,Breast Cancer,ER-/HER2-,Right
+MB-0490,81.9,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0491,43.4,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0492,85.21,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0494,77.22,Breast Cancer,ER-/HER2-,Left
+MB-0495,63.19,Breast Cancer,ER-/HER2-,Right
+MB-0496,60,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0497,57.27,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0499,50.15,Breast Cancer,ER-/HER2-,Left
+MB-0500,36.56,Breast Cancer,ER-/HER2-,Right
+MB-0501,48.93,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0502,56.41,Breast Cancer,ER-/HER2-,Left
+MB-0503,60.77,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0504,68.16,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0505,56.38,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0506,60.74,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0507,58.71,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0508,42.68,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0509,41.48,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0510,71.84,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0511,59.84,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0513,73.39,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0514,42.89,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0516,62.81,Breast Cancer,ER-/HER2-,Right
+MB-0517,47.92,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0519,61.99,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0521,52.2,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0524,40.65,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0525,48.47,Breast Cancer,ER-/HER2-,Right
+MB-0527,73.22,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0528,53.64,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0529,67.46,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0532,59.07,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0535,46.66,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0536,67.88,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0537,59.8,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0538,61.89,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0539,64.21,Breast Cancer,HER2+,Right
+MB-0540,66.11,Breast Cancer,ER-/HER2-,Left
+MB-0541,38.86,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0542,39.3,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0543,45.9,Breast Cancer,HER2+,Right
+MB-0544,74.46,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0545,83.92,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0546,51.45,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0549,76.84,Breast Cancer,HER2+,Right
+MB-0550,60.12,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0551,76.32,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0552,61.53,Breast Cancer,HER2+,Right
+MB-0554,82.35,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0558,69.88,Breast Cancer,ER-/HER2-,Right
+MB-0559,47.71,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0564,48.39,Breast Cancer,HER2+,Right
+MB-0568,61.28,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0569,74.96,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0570,68.99,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0571,61.79,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0574,71.21,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0575,48.1,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0576,68.47,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0577,51.42,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0578,59.64,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0579,70.53,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0580,33.8,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0581,96.29,Breast Cancer,ER-/HER2-,Right
+MB-0582,84.76,Breast Cancer,ER-/HER2-,Right
+MB-0583,75.67,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0584,41.31,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0585,76.72,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0586,77.99,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0587,50.41,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0588,76.35,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0589,59.96,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0590,60.27,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0591,84,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0592,74.94,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0593,62.34,Breast Cancer,HER2+,Left
+MB-0594,77.96,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0596,77.48,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0597,64.55,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0598,77.48,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0599,46.85,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0600,70.5,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0601,32.99,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0603,79.52,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0605,58.08,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0606,83.19,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0607,53.1,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0608,76.81,Breast Cancer,ER-/HER2-,Right
+MB-0609,51.15,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0610,71.3,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0611,75.65,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0613,60.2,Breast Cancer,ER-/HER2-,Right
+MB-0614,48.99,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0616,75.98,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0617,72.14,Breast Cancer,ER-/HER2-,Right
+MB-0618,63.86,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0619,38.9,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0620,62.97,Breast Cancer,ER-/HER2-,Right
+MB-0621,70.04,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0624,64.28,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0627,54.1,Breast Cancer,ER-/HER2-,Right
+MB-0628,63.98,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0630,38.35,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0631,84.41,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0632,51.92,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0635,76.5,Breast Cancer,ER-/HER2-,Right
+MB-0636,26.36,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0637,75.71,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0640,66.09,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0641,56.34,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0642,79.12,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0643,73.46,Breast Cancer,ER-/HER2-,Left
+MB-0644,71.06,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0649,60.62,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0650,79.48,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0653,69.95,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0654,82.5,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0655,69.73,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0656,35.9,Breast Cancer,HER2+,Right
+MB-0657,58.65,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0658,60.89,Breast Cancer,ER-/HER2-,Left
+MB-0659,82.87,Breast Cancer,ER-/HER2-,Left
+MB-0660,52.43,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0661,78.78,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0662,50.94,Breast Cancer,HER2+,Left
+MB-0663,57.76,Breast Cancer,HER2+,Left
+MB-0664,78.27,Breast Cancer,ER-/HER2-,Left
+MB-0666,61.31,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0667,76.24,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0869,58.83,Breast Cancer,ER-/HER2-,Right
+MB-0872,82.34,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0874,59.22,Breast Cancer,ER-/HER2-,Left
+MB-0876,54.85,Breast Cancer,ER-/HER2-,Right
+MB-0877,79.41,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0880,73.64,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0882,73.39,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0884,56.47,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-0885,52.21,Breast Cancer,ER-/HER2-,Right
+MB-0891,83.68,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-0893,57.41,Breast Cancer,ER-/HER2-,Left
+MB-0895,79.61,Breast Cancer,HER2+,Left
+MB-0899,50.62,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-0904,83.01,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-0906,70.6,Breast Cancer,ER-/HER2-,Right
+MB-0907,72.14,Breast Cancer,HER2+,Left
+MB-2513,57.96,Breast Cancer,HER2+,Left
+MB-2517,60.29,Breast Cancer,HER2+,Right
+MB-2536,54.11,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2556,62.59,Breast Cancer,ER-/HER2-,Left
+MB-2564,52.98,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2610,58.99,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2613,59.63,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-2614,43.72,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2616,65.07,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2617,63.3,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-2624,53.53,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2626,62.54,Breast Cancer,HER2+,Right
+MB-2632,36.52,Breast Cancer,HER2+,Left
+MB-2634,70.69,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-2642,30.67,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-2669,62.56,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2686,68.76,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-2705,61.78,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-2708,66.36,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-2711,48.07,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2712,54.59,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2725,44.88,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2728,28.62,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-2730,61.99,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-2735,49.94,Breast Cancer,HER2+,Left
+MB-2742,48.25,Breast Cancer,HER2+,Left
+MB-2744,45.57,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2745,46.85,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-2747,68.23,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2749,60.13,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2750,47.48,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2752,51.36,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2753,30.95,Breast Cancer,ER-/HER2-,Left
+MB-2754,66.11,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2758,38.16,Breast Cancer,HER2+,Right
+MB-2760,63.1,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2763,70.32,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-2765,65.79,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2767,53.11,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-2769,59.9,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-2770,60.32,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2772,54.4,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-2774,66.06,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-2778,62.76,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-2779,36.8,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-2781,64.32,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-2786,62.36,Breast Cancer,HER2+,Left
+MB-2790,47.03,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-2791,40.79,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2792,50.38,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-2793,67.62,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-2795,42.07,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2797,50.07,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-2801,70.35,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-2803,63.01,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-2814,65.25,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-2815,64.25,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2819,61.95,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2823,35.97,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2827,36.5,Breast Cancer,ER-/HER2-,Right
+MB-2834,56.85,Breast Cancer,ER-/HER2-,Left
+MB-2835,59.84,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2838,67.12,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-2840,60.48,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2842,58.48,Breast Cancer,ER-/HER2-,Right
+MB-2843,61.08,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2844,60.76,Breast Cancer,HER2+,Right
+MB-2845,55.8,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2846,58.85,Breast Cancer,ER-/HER2-,Left
+MB-2847,65.04,Breast Cancer,HER2+,Left
+MB-2848,60.11,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2849,60.65,Breast Cancer,ER-/HER2-,Right
+MB-2851,58.69,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2853,36.25,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-2854,61.53,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2857,45.3,Breast Cancer,ER-/HER2-,Left
+MB-2858,63.94,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-2863,59.58,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2867,47.1,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2895,66.84,Breast Cancer,HER2+,Left
+MB-2896,68.18,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2900,59.29,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2912,59.6,Breast Cancer,ER-/HER2-,Right
+MB-2916,48.93,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2917,33.9,Breast Cancer,ER-/HER2-,Left
+MB-2919,59.13,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2922,45.74,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-2923,37.01,Breast Cancer,HER2+,Right
+MB-2927,58.14,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-2929,53.31,Breast Cancer,ER-/HER2-,Left
+MB-2931,46.9,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2932,63.1,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-2933,44.08,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2947,36.47,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2951,39.07,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-2953,43.08,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-2954,69.79,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-2957,31.02,Breast Cancer,ER-/HER2-,Left
+MB-2960,69.67,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2963,53.99,Breast Cancer,ER-/HER2-,Left
+MB-2964,69.48,Breast Cancer,HER2+,Right
+MB-2966,50.3,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-2969,66.86,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2970,46.49,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2971,69.6,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2977,40.02,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2983,56.26,Breast Cancer,HER2+,Left
+MB-2984,64.04,Breast Cancer,HER2+,Left
+MB-2990,48.47,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-2993,63.65,Breast Cancer,ER-/HER2-,Right
+MB-2994,46.7,Breast Cancer,HER2+,Left
+MB-2996,58.1,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-2999,61.42,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3002,62.32,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3005,45.75,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3006,60.09,Breast Cancer,ER-/HER2-,Left
+MB-3007,48.48,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3008,51.94,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3013,50.37,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3014,39.7,Breast Cancer,ER-/HER2-,Left
+MB-3016,56.83,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3021,63.08,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3025,37.89,Breast Cancer,HER2+,Left
+MB-3026,49.92,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3031,46.76,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3032,50.01,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3033,69.07,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3035,54.64,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3037,53.19,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3046,67.2,Breast Cancer,ER-/HER2-,Left
+MB-3049,57.17,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3050,59.53,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3057,55.3,Breast Cancer,ER-/HER2-,Right
+MB-3058,47.74,Breast Cancer,ER-/HER2-,Right
+MB-3060,65.69,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3062,62.87,Breast Cancer,ER-/HER2-,Left
+MB-3063,43.51,Breast Cancer,ER-/HER2-,Right
+MB-3064,46.7,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3067,60.29,Breast Cancer,ER-/HER2-,Right
+MB-3079,50.54,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3083,68.5,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3085,43.68,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3092,56.73,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3102,60.34,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3103,58.55,Breast Cancer,HER2+,Left
+MB-3104,28.96,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3105,48.34,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3110,61.07,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3121,63.06,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3122,62.39,Breast Cancer,HER2+,Right
+MB-3123,50.26,Breast Cancer,ER-/HER2-,Right
+MB-3153,42.17,Breast Cancer,ER-/HER2-,Right
+MB-3165,59.78,Breast Cancer,ER-/HER2-,Left
+MB-3167,66.76,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3171,54.95,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3211,58.31,Breast Cancer,ER-/HER2-,Right
+MB-3222,63.03,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3228,58.31,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3235,50.66,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3252,41.4,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3253,56.81,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3254,50.21,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3266,52.91,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3271,59.43,Breast Cancer,ER-/HER2-,Left
+MB-3272,63.53,Breast Cancer,HER2+,Right
+MB-3275,45,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3277,29.92,Breast Cancer,ER-/HER2-,Left
+MB-3292,60.04,Breast Cancer,ER-/HER2-,Left
+MB-3295,60.42,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3297,42.72,Breast Cancer,ER-/HER2-,Left
+MB-3298,48.75,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3300,64.99,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3301,49.5,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3303,63.96,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3328,69.65,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3329,56.03,Breast Cancer,HER2+,Right
+MB-3341,62.96,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3350,62.62,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3351,39.4,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3355,48.53,Breast Cancer,HER2+,Right
+MB-3357,47.75,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3360,48.48,Breast Cancer,HER2+,Right
+MB-3361,57.31,Breast Cancer,HER2+,Right
+MB-3363,56.42,Breast Cancer,ER-/HER2-,Right
+MB-3365,51.18,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3367,65.62,Breast Cancer,ER-/HER2-,Left
+MB-3371,66.15,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3378,65.5,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3379,60.99,Breast Cancer,HER2+,Right
+MB-3381,53.36,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3386,40.06,Breast Cancer,HER2+,Left
+MB-3388,59.3,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3389,63.34,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3395,52.45,Breast Cancer,ER-/HER2-,Left
+MB-3396,59.29,Breast Cancer,ER-/HER2-,Right
+MB-3402,41.17,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3403,50.92,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3412,55.28,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3417,59.16,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3429,49.08,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3430,68.86,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3435,37.05,Breast Cancer,HER2+,Left
+MB-3437,70.52,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3439,43.67,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3450,51.52,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3452,64.04,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3453,51.36,Breast Cancer,ER-/HER2-,Right
+MB-3459,57.66,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3462,40.92,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3466,55.3,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3467,21.93,Breast Cancer,HER2+,Right
+MB-3476,68.59,Breast Cancer,ER-/HER2-,Left
+MB-3479,60.3,Breast Cancer,ER-/HER2-,Left
+MB-3487,43.58,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3488,41.1,Breast Cancer,HER2+,Left
+MB-3490,45.74,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3492,62.09,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3497,53.5,Breast Cancer,HER2+,Left
+MB-3500,66.91,Breast Cancer,ER-/HER2-,Right
+MB-3502,50.79,Breast Cancer,ER-/HER2-,Left
+MB-3506,39.28,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3510,67.6,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3525,65.56,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3526,60.3,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3528,71.03,Breast Cancer,HER2+,Left
+MB-3530,70.94,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3536,48.12,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3545,49.84,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3548,66.85,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3556,51.76,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3567,55.95,Breast Cancer,ER-/HER2-,Left
+MB-3576,53.04,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3582,63.97,Breast Cancer,ER-/HER2-,Right
+MB-3600,60.15,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3606,68.61,Breast Cancer,HER2+,Left
+MB-3614,63.95,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3702,37.16,Breast Cancer,ER-/HER2-,Right
+MB-3706,55.71,Breast Cancer,ER-/HER2-,Right
+MB-3707,70.77,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3711,41.52,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3748,51.01,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3752,49.98,Breast Cancer,ER-/HER2-,Left
+MB-3754,57.01,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3781,48.16,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3797,68.72,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3823,40.78,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3824,49.45,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3838,60.45,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3840,53.89,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3842,54.6,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-3850,65.89,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3852,43.56,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-3854,63.82,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3865,49.37,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3866,54.29,Breast Cancer,HER2+,Right
+MB-3871,62.03,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-3874,35.5,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-3978,57.91,Breast Cancer,HER2+,Right
+MB-4000,76.96,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4001,74.51,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4003,70.31,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4004,61.16,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4011,72.36,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4012,63.23,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4017,76.17,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4018,71.32,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4046,59.24,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4120,56.19,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4127,54.35,Breast Cancer,HER2+,Right
+MB-4139,63.05,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4140,71.17,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4141,58.32,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4145,60.33,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4146,43.06,Breast Cancer,ER-/HER2-,Left
+MB-4148,57.85,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4154,54.22,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4171,64.21,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4173,74.31,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4212,45.5,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4230,75.87,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4233,54.01,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4236,73.91,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4264,72.17,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4266,28.04,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4270,37.85,Breast Cancer,HER2+,Right
+MB-4274,74.32,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4276,55.07,Breast Cancer,HER2+,Left
+MB-4281,60,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4283,55.62,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4289,65.49,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4293,54.16,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4298,70.24,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4310,76.51,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4323,80.04,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4342,73.2,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4343,68.09,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4357,77.12,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4408,71.66,Breast Cancer,ER-/HER2-,Left
+MB-4421,69.01,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4529,61.21,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4599,63.83,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4616,71.47,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4618,40.05,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4621,39.51,Breast Cancer,ER-/HER2-,Right
+MB-4622,40.83,Breast Cancer,ER-/HER2-,Right
+MB-4623,61.88,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4627,55.65,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4630,67.48,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4633,67.03,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4634,66.37,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4639,71.17,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4640,61.59,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4641,64.93,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4642,66.27,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4643,78.21,Breast Cancer,HER2+,Left
+MB-4644,59.13,Breast Cancer,HER2+,Left
+MB-4648,75.19,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4649,61.67,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4651,69.96,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4653,44.5,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4654,80.82,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4655,64.01,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4661,81.11,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4663,61.97,Breast Cancer,HER2+,Left
+MB-4665,54.27,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4666,57.98,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4667,65.58,Breast Cancer,ER-/HER2-,Left
+MB-4669,68.82,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4670,61,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4671,72.48,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4672,58.78,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4673,63.27,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4674,75.26,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4675,59.23,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4679,64.11,Breast Cancer,ER-/HER2-,Left
+MB-4681,60.66,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4682,65.5,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4685,73.6,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4686,53.03,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4687,81.98,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4688,71.17,Breast Cancer,HER2+,Left
+MB-4691,49.76,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4692,58.49,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4694,76.06,Breast Cancer,ER-/HER2-,Right
+MB-4695,61.12,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4696,49.98,Breast Cancer,ER-/HER2-,Left
+MB-4697,79.01,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4698,59.18,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4701,47.62,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4702,52.13,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4704,67.79,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4705,63.58,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4706,75.48,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4707,59.85,Breast Cancer,ER-/HER2-,Right
+MB-4708,63.03,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4709,49.02,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4710,77.12,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4711,56.07,Breast Cancer,ER-/HER2-,Left
+MB-4712,46.59,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4714,64.68,Breast Cancer,ER-/HER2-,Right
+MB-4715,67.8,Breast Cancer,ER-/HER2-,Right
+MB-4716,52.98,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4717,43.51,Breast Cancer,ER-/HER2-,Right
+MB-4718,44.27,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4719,67.27,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4721,66.39,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4722,64.02,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4723,64.76,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4724,60.44,Breast Cancer,HER2+,Left
+MB-4725,65.83,Breast Cancer,HER2+,Left
+MB-4729,75.41,Breast Cancer,HER2+,Right
+MB-4730,51.29,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4731,49.43,Breast Cancer,HER2+,Left
+MB-4732,26.72,Breast Cancer,ER-/HER2-,Left
+MB-4733,56.27,Breast Cancer,ER-/HER2-,Left
+MB-4735,54.18,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4737,52.29,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4738,42.27,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4739,56.08,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4741,53.02,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4742,76.42,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4743,52.61,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4745,50.08,Breast Cancer,HER2+,Right
+MB-4746,38.1,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4749,70.57,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4750,73.21,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4752,63.7,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4757,38.93,Breast Cancer,ER-/HER2-,Left
+MB-4758,45.77,Breast Cancer,ER-/HER2-,Right
+MB-4760,48.41,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4762,67.82,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4763,44.07,Breast Cancer,HER2+,Right
+MB-4764,57.95,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4767,74.86,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4769,65.86,Breast Cancer,ER-/HER2-,Left
+MB-4770,70.22,Breast Cancer,ER-/HER2-,Left
+MB-4771,47.86,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4778,78.62,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4779,53.39,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4782,43.85,Breast Cancer,ER-/HER2-,Right
+MB-4784,63.35,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4785,75.46,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4787,68.85,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4790,43.73,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4791,83.49,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4792,49.92,Breast Cancer,ER-/HER2-,Right
+MB-4794,89,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4796,53.18,Breast Cancer,HER2+,Right
+MB-4797,81.06,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4800,61.3,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4801,65.83,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4802,71.67,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4805,45.39,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4806,49.77,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4809,43.77,Breast Cancer,ER-/HER2-,Left
+MB-4814,39.92,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4818,75.74,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4820,67.19,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4822,76.88,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4823,64.15,Breast Cancer,HER2+,Left
+MB-4825,65.93,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4827,78.54,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4828,78.87,Breast Cancer,ER-/HER2-,Left
+MB-4829,83.27,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4832,45.44,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4834,49.61,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4836,55.66,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4839,67.26,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4843,54.35,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4845,86.75,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4846,63.07,Breast Cancer,HER2+,Right
+MB-4849,81.52,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4851,73.95,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4853,62.35,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4855,74.8,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4858,74.56,Breast Cancer,HER2+,Right
+MB-4859,74.29,Breast Cancer,ER-/HER2-,Right
+MB-4860,44.95,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4862,64.32,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4865,50.7,Breast Cancer,ER-/HER2-,Right
+MB-4866,43.86,Breast Cancer,HER2+,Right
+MB-4867,47.03,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4869,67.12,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4870,57.33,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4871,74.53,Breast Cancer,HER2+,Left
+MB-4872,58.69,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4876,42.45,Breast Cancer,ER-/HER2-,Left
+MB-4878,79.35,Breast Cancer,HER2+,Left
+MB-4879,49.34,Breast Cancer,HER2+,Right
+MB-4880,69.68,Breast Cancer,ER-/HER2-,Right
+MB-4881,37.05,Breast Cancer,ER-/HER2-,Left
+MB-4882,76.71,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4883,57.93,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4886,43.42,Breast Cancer,HER2+,Right
+MB-4887,52.09,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4888,63.95,Breast Cancer,ER-/HER2-,Right
+MB-4893,33.04,Breast Cancer,ER-/HER2-,Left
+MB-4894,47.71,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4896,41.53,Breast Cancer,HER2+,Left
+MB-4897,40.04,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4898,63.63,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4899,40.25,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4900,47.61,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4904,64.3,Breast Cancer,HER2+,Right
+MB-4906,73.03,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4908,69.87,Breast Cancer,HER2+,Left
+MB-4911,43.51,Breast Cancer,ER-/HER2-,Left
+MB-4912,78.19,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4929,59.49,Breast Cancer,HER2+,Right
+MB-4930,62.43,Breast Cancer,HER2+,Left
+MB-4933,50.78,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4934,74.85,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4935,36.35,Breast Cancer,HER2+,Left
+MB-4937,41.09,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4938,33.92,Breast Cancer,ER-/HER2-,Left
+MB-4941,57.32,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4942,60.31,Breast Cancer,ER-/HER2-,Right
+MB-4944,77.77,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4945,65.53,Breast Cancer,ER-/HER2-,Right
+MB-4950,69.99,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4952,67.15,Breast Cancer,HER2+,Left
+MB-4956,69.31,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4959,76.93,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4961,56.94,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4962,72.44,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4965,69.93,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4966,55.83,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4967,61.16,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4968,56.03,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4969,76.81,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4970,77.45,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4974,65.16,Breast Cancer,ER-/HER2-,Left
+MB-4977,72.54,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4978,58.89,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4981,69.67,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4982,62.99,Breast Cancer,ER-/HER2-,Right
+MB-4986,41,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4987,76.37,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4991,77.13,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-4992,66.47,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-4993,33.55,Breast Cancer,ER-/HER2-,Left
+MB-4994,77.54,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4996,69.65,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-4998,75.27,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-4999,44.84,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5001,71.61,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5004,42.84,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5008,65.76,Breast Cancer,ER-/HER2-,Left
+MB-5011,67.68,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5013,68.56,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5014,69.93,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5015,44.36,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5017,65.86,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5018,72.12,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5019,49.88,Breast Cancer,HER2+,Right
+MB-5020,62.68,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5022,70.71,Breast Cancer,HER2+,Right
+MB-5027,46.95,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5033,63.92,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5035,56.47,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5039,67.7,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5040,72.73,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5041,45.4,Breast Cancer,ER-/HER2-,Left
+MB-5043,70.42,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5044,55.56,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5045,70.11,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5048,44.12,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5049,61.76,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5050,55.04,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5052,76.66,Breast Cancer,ER-/HER2-,Left
+MB-5053,68.21,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5054,52.57,Breast Cancer,HER2+,Left
+MB-5057,39.25,Breast Cancer,ER-/HER2-,Right
+MB-5058,61.04,Breast Cancer,ER-/HER2-,Right
+MB-5059,53.69,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5060,75.01,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5061,71.05,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5062,75.55,Breast Cancer,HER2+,Right
+MB-5063,41.54,Breast Cancer,HER2+,Right
+MB-5064,63.4,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5065,68.66,Breast Cancer,ER-/HER2-,Right
+MB-5066,53.58,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5068,71.19,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5070,47.38,Breast Cancer,ER-/HER2-,Right
+MB-5072,52.23,Breast Cancer,ER-/HER2-,Left
+MB-5073,67.87,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5074,70.59,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5076,28.05,Breast Cancer,ER-/HER2-,Right
+MB-5078,56.33,Breast Cancer,HER2+,Right
+MB-5079,66.38,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5081,43.63,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5084,49,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5088,72.38,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5092,76.37,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5093,69.95,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5097,56.33,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5098,61.92,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5100,32.74,Breast Cancer,ER-/HER2-,Left
+MB-5101,67.86,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5104,73.81,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5105,63.24,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5106,59.5,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5107,61.06,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5109,64.94,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5110,59.12,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5113,43.8,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5114,57.87,Breast Cancer,HER2+,Left
+MB-5115,40.57,Breast Cancer,ER-/HER2-,Left
+MB-5116,74.71,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5117,51.09,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5118,72.14,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5119,75.33,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5120,47.24,Breast Cancer,HER2+,Left
+MB-5121,72.02,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5122,77.66,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5123,69.72,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5124,83.96,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5126,63.48,Breast Cancer,ER-/HER2-,Right
+MB-5127,74.98,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5130,58.61,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5131,64.08,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5134,46.58,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5136,63.22,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5137,36.04,Breast Cancer,ER-/HER2-,Right
+MB-5138,44.59,Breast Cancer,ER-/HER2-,Right
+MB-5139,69.16,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5140,77.31,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5143,78.8,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5144,57.14,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5145,61.55,Breast Cancer,ER-/HER2-,Right
+MB-5147,54.61,Breast Cancer,HER2+,Right
+MB-5148,76.72,Breast Cancer,ER-/HER2-,Right
+MB-5150,69.29,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5152,76.19,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5154,31.87,Breast Cancer,ER-/HER2-,Left
+MB-5157,70.68,Breast Cancer,ER-/HER2-,Right
+MB-5158,66.53,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5160,68.52,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5161,44.41,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5162,53.38,Breast Cancer,ER-/HER2-,Right
+MB-5163,69.04,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5164,48.76,Breast Cancer,HER2+,Right
+MB-5166,69.23,Breast Cancer,HER2+,Right
+MB-5167,60.46,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5169,62.84,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5171,46.79,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5172,49.57,Breast Cancer,HER2+,Right
+MB-5173,69.05,Breast Cancer,ER-/HER2-,Left
+MB-5174,54.69,Breast Cancer,HER2+,Right
+MB-5175,50.08,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5176,53.96,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5177,68.53,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5178,65.26,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5179,68.6,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5182,78.04,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5183,74.34,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5184,79.76,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5185,61.88,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5186,42.84,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5188,65.44,Breast Cancer,ER-/HER2-,Left
+MB-5189,69.24,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5193,88.8,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5195,72.16,Breast Cancer,HER2+,Left
+MB-5196,52.98,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5197,62.11,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5199,65.35,Breast Cancer,HER2+,Right
+MB-5200,70.23,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5201,73.17,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5204,76.91,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5205,50.24,Breast Cancer,ER-/HER2-,Left
+MB-5206,67.45,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5208,52.43,Breast Cancer,ER-/HER2-,Left
+MB-5209,79.17,Breast Cancer,ER-/HER2-,Right
+MB-5211,68.42,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5212,80.17,Breast Cancer,HER2+,Right
+MB-5213,74.98,Breast Cancer,HER2+,Left
+MB-5214,66.57,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5215,74.11,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5218,42.11,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5219,55.77,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5221,63.53,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5222,76.2,Breast Cancer,ER-/HER2-,Right
+MB-5223,42.05,Breast Cancer,ER-/HER2-,Right
+MB-5224,90.23,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5225,68.01,Breast Cancer,ER-/HER2-,Left
+MB-5226,75.53,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5227,74.46,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5228,72.56,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5229,39.99,Breast Cancer,HER2+,Right
+MB-5230,48.17,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5231,61.28,Breast Cancer,HER2+,Left
+MB-5232,74.53,Breast Cancer,ER-/HER2-,Left
+MB-5233,79.59,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5235,59.04,Breast Cancer,ER-/HER2-,Right
+MB-5236,63.02,Breast Cancer,ER-/HER2-,Right
+MB-5238,46.03,Breast Cancer,HER2+,Right
+MB-5239,69.5,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5240,56.92,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5243,62.79,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5244,69.2,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5251,76.77,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5253,69.59,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5255,58.7,Breast Cancer,ER-/HER2-,Left
+MB-5256,70.31,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5258,72.77,Breast Cancer,ER-/HER2-,Left
+MB-5259,41.28,Breast Cancer,HER2+,Right
+MB-5260,72.23,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5261,66.12,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5264,46.4,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5266,76.83,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5267,52.77,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5268,47.98,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5270,67.1,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5271,58.25,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5272,40.71,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5273,60.33,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5275,72.19,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5277,35.78,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5278,47.92,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5279,66.55,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5280,45.85,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5281,55.72,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5284,68.18,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5287,69.46,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5288,70.1,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5289,65.45,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5290,69.42,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5291,67.25,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5292,82.06,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5293,70.86,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5294,31.71,Breast Cancer,ER-/HER2-,Right
+MB-5295,60.51,Breast Cancer,ER-/HER2-,Left
+MB-5296,78.93,Breast Cancer,HER2+,Right
+MB-5298,49.63,Breast Cancer,ER-/HER2-,Right
+MB-5299,53.35,Breast Cancer,ER-/HER2-,Left
+MB-5300,55.53,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5301,64.46,Breast Cancer,ER-/HER2-,Left
+MB-5302,52.81,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5305,61.88,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5306,58.26,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5308,67.62,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5310,71.4,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5311,73.01,Breast Cancer,ER-/HER2-,Right
+MB-5312,50.6,Breast Cancer,HER2+,Right
+MB-5313,79.12,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5315,52.13,Breast Cancer,HER2+,Left
+MB-5317,69.7,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5318,60.96,Breast Cancer,HER2+,Left
+MB-5322,66.58,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5323,31.26,Breast Cancer,ER-/HER2-,Left
+MB-5324,64.01,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5325,43.04,Breast Cancer,ER-/HER2-,Left
+MB-5327,66.94,Breast Cancer,HER2+,Left
+MB-5328,74.57,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5329,64.64,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5330,70.49,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5331,54.69,Breast Cancer,HER2+,Right
+MB-5332,68.93,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5334,78.44,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5335,41.81,Breast Cancer,ER-/HER2-,Right
+MB-5338,61.24,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5339,71.78,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5341,56.37,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5345,76.87,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5347,56.89,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5348,41.27,Breast Cancer,ER-/HER2-,Left
+MB-5349,72.88,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5350,66.7,Breast Cancer,ER-/HER2-,Right
+MB-5351,47.35,Breast Cancer,HER2+,Left
+MB-5358,72.88,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5360,66.39,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5361,76.01,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5364,56.89,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5365,79.29,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5366,75.56,Breast Cancer,HER2+,Left
+MB-5368,77.15,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5369,66.18,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5370,62.55,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5373,67.13,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5377,35.14,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5378,57.99,Breast Cancer,ER-/HER2-,Right
+MB-5381,44,Breast Cancer,HER2+,Right
+MB-5382,69.27,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5383,83.9,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5384,61.05,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5385,83.32,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5386,65.86,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5387,45.33,Breast Cancer,ER-/HER2-,Right
+MB-5388,69.8,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5389,64.76,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5390,37.27,Breast Cancer,ER-/HER2-,Left
+MB-5392,57.34,Breast Cancer,ER-/HER2-,Right
+MB-5393,82.72,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5395,71.51,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5396,61.84,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5397,61.16,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5398,71.01,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5399,73.1,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5401,75.42,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5402,81.76,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5403,85.94,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5404,81.57,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5405,64.43,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5407,36.03,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5408,65.48,Breast Cancer,ER-/HER2-,Right
+MB-5409,51.62,Breast Cancer,HER2+,Left
+MB-5410,66.45,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5411,43.61,Breast Cancer,HER2+,Left
+MB-5412,51.87,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5413,71.38,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5414,61.14,Breast Cancer,HER2+,Left
+MB-5417,45.8,Breast Cancer,HER2+,Left
+MB-5418,64.15,Breast Cancer,HER2+,Left
+MB-5420,71.49,Breast Cancer,HER2+,Left
+MB-5421,68,Breast Cancer,ER-/HER2-,Left
+MB-5422,47.14,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5424,66.42,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5425,67.59,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5426,53.69,Breast Cancer,HER2+,Left
+MB-5427,83.68,Breast Cancer,ER-/HER2-,Right
+MB-5428,55.36,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5429,86.04,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5431,49.91,Breast Cancer,ER-/HER2-,Left
+MB-5432,61,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5433,69.37,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5434,71.07,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5435,77.09,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5440,49.05,Breast Cancer,ER-/HER2-,Left
+MB-5441,90.08,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5442,44.93,Breast Cancer,ER-/HER2-,Right
+MB-5444,49.58,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5446,51.25,Breast Cancer,ER-/HER2-,Left
+MB-5447,68.1,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5450,38.92,Breast Cancer,ER-/HER2-,Right
+MB-5451,43.44,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5453,36.99,Breast Cancer,ER-/HER2-,Left
+MB-5454,55.57,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5455,73.24,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5457,52.57,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5458,54.96,Breast Cancer,HER2+,Right
+MB-5459,64.07,Breast Cancer,HER2+,Right
+MB-5460,55.59,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5463,71.91,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5464,65.58,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5465,69.83,Breast Cancer,ER-/HER2-,Right
+MB-5467,36.01,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5468,48.1,Breast Cancer,ER-/HER2-,Right
+MB-5470,48.07,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5471,67.54,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5472,74.78,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5473,72.61,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5474,46.26,Breast Cancer,HER2+,Left
+MB-5475,73.55,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5477,59.02,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5478,72.23,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5481,57.62,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5482,40.75,Breast Cancer,ER-/HER2-,Right
+MB-5483,44.5,Breast Cancer,HER2+,Right
+MB-5484,47.3,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5485,80.08,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5486,75.65,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5489,53.6,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5490,65.31,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5491,72.25,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5492,74.28,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5493,69.84,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5495,42.64,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5497,69.56,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5498,64.1,Breast Cancer,HER2+,Left
+MB-5499,65.5,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5502,51.62,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5505,74.26,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5510,75.73,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5511,54.18,Breast Cancer,ER-/HER2-,Left
+MB-5513,86.55,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5514,63.45,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5518,72.39,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5519,72.61,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5520,38.49,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5521,69.27,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5525,63.2,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5526,45.42,Breast Cancer,ER-/HER2-,Right
+MB-5527,53.48,Breast Cancer,ER-/HER2-,Left
+MB-5529,40.21,Breast Cancer,ER-/HER2-,Left
+MB-5530,50.61,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5531,66.56,Breast Cancer,ER-/HER2-,Right
+MB-5532,69.66,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5533,71.64,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5534,80.09,Breast Cancer,ER-/HER2-,Left
+MB-5535,49.87,Breast Cancer,HER2+,Left
+MB-5540,76.53,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5541,60.13,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5543,79.11,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5546,40.96,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5547,43.08,Breast Cancer,ER-/HER2-,Right
+MB-5548,62.43,Breast Cancer,ER-/HER2-,Left
+MB-5549,54.83,Breast Cancer,ER-/HER2-,Left
+MB-5550,84.3,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5551,67.24,Breast Cancer,ER-/HER2-,Right
+MB-5552,69.77,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5553,70.52,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5554,57.75,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5556,53.56,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5558,35.13,Breast Cancer,HER2+,Right
+MB-5559,42.12,Breast Cancer,ER-/HER2-,Left
+MB-5560,44.05,Breast Cancer,ER-/HER2-,Right
+MB-5562,73.93,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5563,76.3,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5565,64.27,Breast Cancer,ER-/HER2-,Left
+MB-5566,38.44,Breast Cancer,ER-/HER2-,Right
+MB-5567,74.95,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5571,78.84,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5572,47.88,Breast Cancer,ER-/HER2-,Right
+MB-5575,52.63,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5576,67.79,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5577,68.64,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5579,68.82,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5580,75.28,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5582,46.43,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5583,50.75,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5584,69.55,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5585,75.88,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5588,66.55,Breast Cancer,ER-/HER2-,Right
+MB-5589,70.86,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5590,64.93,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5591,46.28,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5592,66.01,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5593,40.53,Breast Cancer,HER2+,Left
+MB-5596,54.27,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5597,75.38,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5599,62.88,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5601,61.73,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5602,39.7,Breast Cancer,ER-/HER2-,Left
+MB-5603,70.79,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5604,66.88,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5605,40.37,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5613,80.21,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5614,62.87,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5616,41.53,Breast Cancer,ER-/HER2-,Left
+MB-5617,81.63,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5620,79.42,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5622,62.89,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5623,44.99,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5625,45.51,Breast Cancer,ER-/HER2-,Right
+MB-5626,73.75,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5628,65.06,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5629,71.36,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5632,78.55,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5633,62.7,Breast Cancer,ER-/HER2-,Left
+MB-5634,55.53,Breast Cancer,ER-/HER2-,Right
+MB-5635,57.2,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5636,68.49,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5638,65.14,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5640,58,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5641,78.64,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5642,68.13,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-5645,71.31,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5646,58.4,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5647,65.43,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-5648,74.92,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-5651,51.98,Breast Cancer,ER-/HER2-,Right
+MB-5652,68.75,Breast Cancer,ER-/HER2-,Left
+MB-5653,60.72,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5654,82.94,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-5655,67.57,Breast Cancer,ER-/HER2-,Right
+MB-5656,74.76,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6001,68.7,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6006,86.61,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6007,70.65,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6008,80.33,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6010,70.28,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6011,59.22,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6014,44.48,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6016,87.32,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6017,72.19,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6018,65.03,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6019,67,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6020,75.63,Breast Cancer,HER2+,Left
+MB-6021,51.94,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6022,90,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6023,60.28,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6024,65.63,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6026,87.75,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6029,63.35,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6030,66.76,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6036,44.65,Breast Cancer,ER-/HER2-,Left
+MB-6039,65.96,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6042,70.12,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6044,70.64,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6047,72.94,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6048,58.84,Breast Cancer,HER2+,Left
+MB-6049,62.29,Breast Cancer,HER2+,Left
+MB-6050,51.07,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6051,65.39,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6052,36.47,Breast Cancer,ER-/HER2-,Left
+MB-6053,69.39,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6055,33.08,Breast Cancer,ER-/HER2-,Left
+MB-6058,41.79,Breast Cancer,ER-/HER2-,Right
+MB-6059,50.88,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6060,53.79,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6062,31.6,Breast Cancer,ER-/HER2-,Left
+MB-6063,58.9,Breast Cancer,HER2+,Left
+MB-6065,76.69,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6069,75.55,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6071,72.81,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6075,84.04,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6077,70.92,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6079,68.91,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6080,79.04,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6082,46.47,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6083,73.03,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6085,58.38,Breast Cancer,ER-/HER2-,Right
+MB-6092,80.59,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6097,68.59,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6103,66.28,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6105,78.93,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6107,71.38,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6108,38.01,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6113,39.41,Breast Cancer,HER2+,Left
+MB-6114,70.76,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6116,66.13,Breast Cancer,HER2+,Right
+MB-6118,41.11,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6122,54.74,Breast Cancer,ER-/HER2-,Left
+MB-6124,76.99,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6125,63.27,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6131,57.27,Breast Cancer,HER2+,Left
+MB-6133,74.6,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6135,69.38,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6138,85.85,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6141,79.84,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6143,60.6,Breast Cancer,ER-/HER2-,Right
+MB-6144,64.55,Breast Cancer,ER-/HER2-,Left
+MB-6145,60.41,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6146,51.04,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6147,76.01,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6149,70.9,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6150,59.47,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6152,60.62,Breast Cancer,ER-/HER2-,Right
+MB-6154,71.74,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6156,49.5,Breast Cancer,HER2+,Left
+MB-6157,86.29,Breast Cancer,HER2+,Left
+MB-6160,46.23,Breast Cancer,HER2+,Right
+MB-6163,71.62,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6164,77.45,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6167,75.02,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6168,64.95,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6169,39.17,Breast Cancer,ER-/HER2-,Left
+MB-6171,70.91,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6178,38.58,Breast Cancer,ER-/HER2-,Left
+MB-6179,59.08,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6181,83.09,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6182,56.47,Breast Cancer,HER2+,Left
+MB-6183,66.24,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6184,35.02,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6185,75.44,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6187,70.35,Breast Cancer,ER-/HER2-,Right
+MB-6188,41.92,Breast Cancer,ER-/HER2-,Right
+MB-6189,56.25,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6190,79.24,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6192,78.45,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6194,44.51,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6195,66.01,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6200,65.52,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6201,79.2,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6204,41.08,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6207,80.76,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6208,56.93,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6211,82.1,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6212,61.81,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6214,74.43,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6217,47.51,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6218,49.67,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6223,58.83,Breast Cancer,ER-/HER2-,Left
+MB-6224,66.94,Breast Cancer,ER-/HER2-,Left
+MB-6225,68.43,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6226,73.37,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6228,37.33,Breast Cancer,ER-/HER2-,Left
+MB-6229,75.33,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6231,77.96,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6232,71.22,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6233,70.65,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6234,66.35,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6237,75.62,Breast Cancer,ER-/HER2-,Right
+MB-6238,84.87,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6239,52.84,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6242,41.29,Breast Cancer,ER-/HER2-,Left
+MB-6245,47.01,Breast Cancer,ER-/HER2-,Right
+MB-6246,58.39,Breast Cancer,HER2+,Left
+MB-6248,51.22,Breast Cancer,ER-/HER2-,Left
+MB-6253,62.9,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6254,78.69,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-6256,67.33,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6257,49.38,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6302,67.78,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6305,52.85,Breast Cancer,ER-/HER2-,Left
+MB-6306,78.22,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6308,81.75,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6312,85.02,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6314,68.57,Breast Cancer,HER2+,Left
+MB-6317,86.9,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6318,81.37,Breast Cancer,ER-/HER2-,Right
+MB-6319,57.9,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-6322,80.93,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6327,76.56,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6328,75.89,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6329,68.48,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6330,36.81,Breast Cancer,HER2+,Right
+MB-6334,60.12,Breast Cancer,HER2+,Right
+MB-6336,63.22,Breast Cancer,ER-/HER2-,Right
+MB-6337,58.25,Breast Cancer,HER2+,Right
+MB-6344,82,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6346,63.2,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-6358,57.77,Breast Cancer,HER2+,Right
+MB-6359,73.42,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-6363,60.77,Breast Cancer,HER2+,Right
+MB-7000,69.28,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7001,72.71,Breast Cancer,HER2+,Left
+MB-7002,74.52,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7003,50.44,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-7004,74.2,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-7005,70.84,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-7006,58.8,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7007,54.44,Breast Cancer,ER-/HER2-,Left
+MB-7008,69.94,Breast Cancer,ER-/HER2-,Right
+MB-7009,68.28,Breast Cancer,ER-/HER2-,Right
+MB-7010,70.25,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-7011,68.9,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7012,60.96,Breast Cancer,ER-/HER2-,Left
+MB-7013,30.53,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-7014,67.57,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7015,63.79,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7017,36.63,Breast Cancer,ER-/HER2-,Right
+MB-7018,72.12,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7019,68.44,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7020,44.47,Breast Cancer,HER2+,Left
+MB-7022,70.61,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7023,66.66,Breast Cancer,ER-/HER2-,Right
+MB-7024,54.92,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7026,35.27,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7027,60.56,Breast Cancer,HER2+,Right
+MB-7028,65.94,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7029,43.45,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7030,74.21,Breast Cancer,ER-/HER2-,Right
+MB-7032,79.36,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-7034,78.73,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-7035,45.3,Breast Cancer,HER2+,Right
+MB-7037,68.74,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7038,57.62,Breast Cancer,ER-/HER2-,Right
+MB-7039,78.19,Breast Cancer,ER-/HER2-,Left
+MB-7040,81.32,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7041,79.48,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-7042,61.72,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7043,72.65,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-7044,67.24,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-7045,61.39,Breast Cancer,ER-/HER2-,Right
+MB-7048,36.27,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7049,48.75,Breast Cancer,ER-/HER2-,Right
+MB-7050,64.99,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7051,63.44,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7052,45.45,Breast Cancer,ER-/HER2-,Right
+MB-7056,71.82,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-7057,72.81,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7058,45.81,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7059,50.55,Breast Cancer,HER2+,Left
+MB-7060,69.25,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7065,45.35,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7066,64.24,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-7067,69.64,Breast Cancer,HER2+,Left
+MB-7068,58.95,Breast Cancer,HER2+,Left
+MB-7069,67.6,Breast Cancer,HER2+,Left
+MB-7070,68.76,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7071,27.56,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7072,71.24,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7074,51.36,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-7075,64.4,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7077,37.89,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-7079,70.3,Breast Cancer,ER-/HER2-,Right
+MB-7080,64.01,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-7081,69.12,Breast Cancer,ER-/HER2-,Right
+MB-7082,57.07,Breast Cancer,HER2+,Right
+MB-7083,50.42,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7084,74.07,Breast Cancer,ER-/HER2-,Right
+MB-7085,60.5,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7089,47.7,Breast Cancer,ER-/HER2-,Right
+MB-7090,48.52,Breast Cancer,ER-/HER2-,Left
+MB-7093,76.25,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-7095,74.64,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7097,60.09,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7099,80.31,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7100,70.56,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7101,49.16,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-7102,73.16,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7104,59.93,Breast Cancer,ER-/HER2-,Right
+MB-7106,80.13,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-7107,67.85,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7109,67.27,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7112,40.74,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7113,66.04,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7114,55.57,Breast Cancer,ER-/HER2-,Left
+MB-7118,70.15,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7119,54.53,Breast Cancer,ER-/HER2-,Left
+MB-7121,49.02,Breast Cancer,ER-/HER2-,Left
+MB-7127,52.43,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7128,71.05,Breast Cancer,HER2+,Left
+MB-7131,58.04,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7132,69.06,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7133,71.41,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7137,64.24,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7138,68.16,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7140,58.27,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7142,55.52,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7143,61.38,Breast Cancer,HER2+,Left
+MB-7144,59.34,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7145,44.42,Breast Cancer,ER-/HER2-,Right
+MB-7147,76.98,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7150,70.88,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7151,59.06,Breast Cancer,ER-/HER2-,Left
+MB-7153,74.11,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7154,77.54,Breast Cancer,ER-/HER2-,Right
+MB-7155,41.14,Breast Cancer,ER-/HER2-,Left
+MB-7157,56.86,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7160,51.34,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7161,47.67,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7162,59.84,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-7165,28.78,Breast Cancer,ER-/HER2-,Left
+MB-7167,43.26,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7168,60.33,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-7171,71.82,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7172,62.7,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7173,67.4,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7174,60.63,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7176,50.51,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7181,63.09,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7185,70.76,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7187,49.35,Breast Cancer,HER2+,Left
+MB-7188,68.45,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7196,67.99,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7197,70.58,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7200,71.69,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7201,62.07,Breast Cancer,ER-/HER2-,Right
+MB-7207,43.28,Breast Cancer,ER-/HER2-,Right
+MB-7216,79.23,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7217,62.61,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-7219,60.07,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7220,70.97,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7228,58.92,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7229,73.52,Breast Cancer,ER+/HER2- High Prolif,Right
+MB-7230,51.45,Breast Cancer,ER+/HER2- High Prolif,Left
+MB-7231,68.41,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7232,58.37,Breast Cancer,ER+/HER2- Low Prolif,Right
+MB-7233,74.76,Breast Cancer,ER+/HER2- Low Prolif,Left
+MB-7234,63.43,Breast Cancer,ER+/HER2- High Prolif,Left
