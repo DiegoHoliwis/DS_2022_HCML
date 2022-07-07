@@ -3,6 +3,7 @@
 library(tidyverse)
 library(nortest)
 library(janitor)
+library(lmtest)
 
 # MODELOS ANOVA ----
 
@@ -188,4 +189,110 @@ vida %>% summary()
 
 # Omitimos los casos NA's por simplicidad para la clase
 
-lm(life_expectancy ~ adult_mortality, data = vida)
+vida <- vida %>% 
+  drop_na()
+
+modelo <- lm(life_expectancy ~ adult_mortality, data = vida)
+modelo %>% summary()
+
+# Escrito el modelo es:
+# life_expectancy = 77.598238 + -0.049317*adult_mortality
+
+vida %>% 
+  ggplot(aes(x = adult_mortality, y = life_expectancy)) +
+  geom_point() +
+  stat_smooth(method = 'lm', formula = 'y ~ x')
+
+# Que ocurre si utilizamos el statrus del país
+
+modelo2 <- lm(life_expectancy ~ adult_mortality + status, data = vida)
+modelo2 %>% summary()
+
+vida %>% 
+  ggplot(aes(x = adult_mortality, y = life_expectancy, fill = status)) +
+  geom_point() +
+  stat_smooth(method = 'lm', formula = 'y ~ x')
+
+
+# Y ~ Normal # Esto no es correcto.
+# Y|X = x ~ Normal # Esto es lo que buscamos.
+
+
+modelo3 <- lm(life_expectancy ~ adult_mortality + alcohol, data = vida)
+modelo3 %>% summary()
+
+
+lm(life_expectancy ~ adult_mortality, data = vida) %>% summary()
+lm(life_expectancy ~ alcohol, data = vida) %>% summary()
+
+modelo3 %>% summary()
+
+# Modelo de regresión lineal múltiple
+
+vida <- vida %>% 
+  select(-country)
+
+modeloFull <- lm(life_expectancy ~ ., data = vida)
+modeloFull %>% summary()
+
+
+modelo_final <- step(modeloFull, direction = 'both')
+modelo_final %>% summary()
+
+
+AIC(modelo_final)
+AIC(modelo2)
+
+# Análisis de resiudos
+# Normalidad
+# H0: Los residuos siguen una distribución normal
+# H1: Los residuos no siguen una distribución normal
+lillie.test(modelo_final$residuals)
+
+# Homocedasticidad
+# H0: Los residuos son homocedasticos
+# H1: Los residuos son heterocedasticos
+lmtest::bptest(modelo_final)
+
+# Independencia
+# H0: Los residuos son independeintes
+# H1: Los residuos están autocorrelacionados
+lmtest::dwtest(modelo_final)
+
+
+# Analisis de factor de inflación de la varianza (VIF)
+
+VIF <- car::vif(modelo_final)
+
+df_VIF <- tibble(variable = VIF %>% names(),
+                 VIF = VIF)
+
+df_VIF %>% 
+  mutate(Alto = ifelse(VIF > 5, 'Alto','bajo')) %>% 
+  ggplot(aes(y = variable, x = VIF, fill = Alto)) +
+  geom_bar(stat = 'identity') +
+  labs(title = 'Análisis del factor de inflación de la varianza')
+
+
+
+modF <- step(lm(life_expectancy ~ ., data = vida %>% select(-under_five_deaths)),
+             direction = 'both')
+
+VIF <- car::vif(modF)
+
+df_VIF <- tibble(variable = VIF %>% names(),
+                 VIF = VIF)
+
+df_VIF %>% 
+  mutate(Alto = ifelse(VIF > 5, 'Alto','bajo')) %>% 
+  ggplot(aes(y = variable, x = VIF, fill = Alto)) +
+  geom_bar(stat = 'identity') +
+  labs(title = 'Análisis del factor de inflación de la varianza')
+
+modF %>% summary()
+
+
+
+
+
+
