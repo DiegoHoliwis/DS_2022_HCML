@@ -2,6 +2,7 @@
 # Diego Muñoz :D
 library(tidyverse)
 library(nortest)
+library(janitor)
 
 # MODELOS ANOVA ----
 
@@ -177,3 +178,14 @@ lillie.test(mod$residuals)
 
 # Utilizar otra metodología
 
+# Regresión lineal -----
+
+vida <- read_csv('life.csv')
+vida <- vida %>% 
+  clean_names()
+
+vida %>% summary()
+
+# Omitimos los casos NA's por simplicidad para la clase
+
+lm(life_expectancy ~ adult_mortality, data = vida)
