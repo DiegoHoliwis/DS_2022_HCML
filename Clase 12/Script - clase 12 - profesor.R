@@ -58,7 +58,6 @@ train <- df %>% sample_frac(0.7)
 # Selecciona los datos del df que no esten en la base train
 test  <- df %>% filter(!row.names(.) %in% row.names(train)) 
 
-
 mod1 <- glm(formula = salario ~ edad + estado_civil + raza + sexo + nativo + horas_semanal,
             data    = train,
             family  = binomial(link = 'logit'))
@@ -103,5 +102,5 @@ MLmetrics::ConfusionMatrix(y_test_pred, test$salario)
 # Especificidad(specificity) = 6821/(6821 + 543)
 # Exactitud(Acurracy)        = (6821 + 670)/(6821 + 543 + 1734 + 670)
   
-sensitivity(y_test,y_test_prob,0.5)
+sensitivity(y_test, y_test_prob, 0.5)
   
