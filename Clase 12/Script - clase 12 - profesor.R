@@ -67,12 +67,12 @@ summary(mod1)
 
 # Predicción
 
-predict(mod1,
-        newdata = test,
-        type = 'response')
+y_test_prob <- predict(mod1,
+                       newdata = test,
+                       type = 'response') %>% as.vector()
 
+y_test = test$salario
 
-train$salario %>% mean()
 
 # ¿Qué ocurre cuando existe desbalance en la base datos?
 # Los modelos de regresión logística están basados en la idea de que existen
@@ -87,10 +87,21 @@ train$salario %>% mean()
 # Opción 4: Utilizar regularización L1 y L2
 # Opción 5: Utilizar un modelo que no se vea afectado por desbalance :D
 
+# Nota: Explorar la metodología smote
 
+y_test_pred <- if_else(y_test_prob > 0.5,1,0)
 
+MLmetrics::ConfusionMatrix(y_test_pred, test$salario)
 
+#        y_pred
+#  y_true    0    1
+#       0 6821  543
+#       1 1734  670
 
-
-
-
+# sensibilidad(recall)       = 670/(1734 + 670)
+# precisión                  = 670/(670 + 543)
+# Especificidad(specificity) = 6821/(6821 + 543)
+# Exactitud(Acurracy)        = (6821 + 670)/(6821 + 543 + 1734 + 670)
+  
+sensitivity(y_test,y_test_prob,0.5)
+  
