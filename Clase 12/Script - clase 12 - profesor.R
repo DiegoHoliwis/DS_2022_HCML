@@ -152,6 +152,9 @@ confusionMatrix(y_test,
                 y_test_prob,
                 threshold = 0.8771930)
 
+# train = train %>% 
+#   mutate(raza = factor(raza, levels = c('Negro','Blanco','Otro')))
+
 modelo = glm(salario ~ ., data = train)
 step(modelo, direction = 'both')
 
@@ -170,10 +173,10 @@ exp(0.0035345)
 # ------------------------
 # Una persona de 20 años vs una persona de 35 años (con todos los demás
 # variables constantes) aumenta las chances de ganar sobre 50 mil dolares
-# al año en 0.131685 o equivalentemente, son 1.131685 veces de alguien de
+# al año en 0.054448 o equivalentemente, son 1.054448 veces de alguien de
 # 20 años
 
-exp(0.0035345*35)
+exp(0.0035345*15)
 # ------------------------
 # Una persona de test negra en relación a una persona de test blanca 
 # (con todas las demás variables constantes), disminuye su chances de ganar sobre
