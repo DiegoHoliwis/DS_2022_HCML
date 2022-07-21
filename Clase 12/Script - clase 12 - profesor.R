@@ -52,11 +52,16 @@ summary(mod1)
 # Paso 3: Validar usando la base de test
 
 set.seed(123)
-# Selecciona el 70 de los datos
-train <- df %>% sample_frac(0.7) 
+id <- sample(1:nrow(df), size = nrow(df)*0.7, replace = FALSE)
 
-# Selecciona los datos del df que no esten en la base train
-test  <- df %>% filter(!row.names(.) %in% row.names(train)) 
+train <- df %>% slice(id)
+test  <- df %>% slice(-id)
+
+# # Selecciona el 70 de los datos
+# train <- df %>% sample_frac(0.7)
+# 
+# # Selecciona los datos del df que no esten en la base train
+# test  <- df %>% filter(!row.names(.) %in% row.names(train))
 
 mod1 <- glm(formula = salario ~ edad + estado_civil + raza + sexo + nativo + horas_semanal,
             data    = train,
@@ -103,4 +108,51 @@ MLmetrics::ConfusionMatrix(y_test_pred, test$salario)
 # Exactitud(Acurracy)        = (6821 + 670)/(6821 + 543 + 1734 + 670)
   
 sensitivity(y_test, y_test_prob, 0.5)
+specificity(y_test, y_test_prob, 0.5)
+
+# Seleccin de punto de corte
+
+plotROC(y_test,y_test_prob,returnSensitivityMat = TRUE)
+
+
+sensitivity(y_test, y_test_prob, 0.3)
+1 - specificity(y_test, y_test_prob, 0.3)
+
+# Bonus - Curva PR
+
+## Curva PR
+
+PR <- seq(0,1,length.out = 400) %>% 
+  map_dfr(.f = function(x){
+    tibble(threshold  = x,
+           recall = InformationValue::sensitivity(y_test,
+                                                  y_test_prob,
+                                                  threshold = x),
+           precision = InformationValue::precision(y_test,
+                                                   y_test_prob,
+                                                   threshold = x) %>% replace_na(1)
+    )
+  })
+
+PR %>% 
+  ggplot(aes(x = threshold )) +
+  geom_line(aes(y = recall, color = 'recall'), size = 1.5) +
+  geom_line(aes(y = precision, color = 'precision'), size = 1.5) +
+  labs(title = 'Curva PR', y = '') +
+  theme_classic() +
+  scale_color_manual('Metrica', values = c('tomato','cyan'))
+
+
+
+InformationValue::precision(y_test,
+                            y_test_prob,
+                            threshold = 0.8771930)
+
+confusionMatrix(y_test,
+                y_test_prob,
+                threshold = 0.8771930)
+
+
+
+
   
