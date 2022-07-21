@@ -152,7 +152,37 @@ confusionMatrix(y_test,
                 y_test_prob,
                 threshold = 0.8771930)
 
+modelo = glm(salario ~ ., data = train)
+step(modelo, direction = 'both')
+
+summary(modelo)
+
+exp(-0.0420169)
+
+# ------------------------
+# Una persona de 20 años vs una persona de 21 años (con todos los demás
+# variables constantes) aumenta las chances de ganar sobre 50 mil dolares
+# al año en 0.0035 o equivalentemente, son 1.003541 veces de alguien de
+# 20 años
+
+exp(0.0035345)
+
+# ------------------------
+# Una persona de 20 años vs una persona de 35 años (con todos los demás
+# variables constantes) aumenta las chances de ganar sobre 50 mil dolares
+# al año en 0.131685 o equivalentemente, son 1.131685 veces de alguien de
+# 20 años
+
+exp(0.0035345*35)
+# ------------------------
+# Una persona de test negra en relación a una persona de test blanca 
+# (con todas las demás variables constantes), disminuye su chances de ganar sobre
+# 50 mil dolares al año en 0.04114642 o equivalentemente, son 0.9588536
+# veces las de una persona de test blanca
+
+1 - exp(-0.0420169)
+
+# Nota: Si un coeficiente es positivo aumenta las chances en caso contrario
+# disminuyen.
 
 
-
-  
